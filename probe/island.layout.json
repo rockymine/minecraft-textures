@@ -1,0 +1,88 @@
+{
+ "setup": {
+  "mirror_mode": "none",
+  "center": {
+   "cx": 0,
+   "cz": 0
+  },
+  "bbox": {
+   "min_x": -60,
+   "max_x": 60,
+   "min_z": -60,
+   "max_z": 60
+  }
+ },
+ "layers": [
+  {
+   "id": "ground",
+   "name": "Ground",
+   "base_y": 0,
+   "layout": {
+    "shapes": [
+     {
+      "id": "shore-west",
+      "type": "rectangle",
+      "operation": "add",
+      "override": false,
+      "min_x": -46,
+      "min_z": -34,
+      "max_x": -14,
+      "max_z": 34,
+      "floor": 0,
+      "base_height": 10
+     },
+     {
+      "id": "crown",
+      "type": "rectangle",
+      "operation": "add",
+      "override": false,
+      "min_x": -14,
+      "min_z": -34,
+      "max_x": 18,
+      "max_z": 34,
+      "floor": 0,
+      "base_height": 16
+     },
+     {
+      "id": "shore-east",
+      "type": "rectangle",
+      "operation": "add",
+      "override": false,
+      "min_x": 18,
+      "min_z": -34,
+      "max_x": 46,
+      "max_z": 34,
+      "floor": 0,
+      "base_height": 10
+     },
+     {
+      "id": "spit-north",
+      "type": "rectangle",
+      "operation": "add",
+      "override": false,
+      "min_x": -14,
+      "min_z": -50,
+      "max_x": 18,
+      "max_z": -34,
+      "floor": 0,
+      "base_height": 10
+     }
+    ],
+    "groups": [
+     {
+      "id": "board",
+      "name": "The board",
+      "mirrors": false,
+      "shapeIds": [
+       "shore-west",
+       "crown",
+       "shore-east",
+       "spit-north"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "themes": {}
+}

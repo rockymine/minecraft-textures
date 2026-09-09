@@ -1,0 +1,12 @@
+# Mojang's, not ours. The jar is fetched by hash from their own launcher metadata (see README) and the
+# assets are unzipped out of it; publishing either would be redistributing their content. Everything this
+# repository is for — the measurements — is derived from them and committed.
+client-*.jar
+assets-*/
+
+# Regenerable from the master, and a duplicate of the board committed in pgm-studio-mapgen.
+probe/master/
+probe/_*.json
+
+__pycache__/
+*.pyc

@@ -1,0 +1,74 @@
+{
+ "teams": [
+  {
+   "id": "red",
+   "name": "Red",
+   "color": "red"
+  },
+  {
+   "id": "blue",
+   "name": "Blue",
+   "color": "blue"
+  }
+ ],
+ "maxPlayers": 8,
+ "spawns": [
+  {
+   "team": "red",
+   "point": {
+    "x": -40,
+    "y": 13,
+    "z": 0
+   },
+   "yaw": 135,
+   "protection": [
+    {
+     "minX": -48,
+     "minZ": -8,
+     "maxX": -32,
+     "maxZ": 8
+    }
+   ]
+  },
+  {
+   "team": "blue",
+   "point": {
+    "x": 20,
+    "y": 13,
+    "z": 41
+   },
+   "yaw": -45,
+   "protection": [
+    {
+     "minX": 12,
+     "minZ": 33,
+     "maxX": 28,
+     "maxZ": 49
+    }
+   ]
+  }
+ ],
+ "observer": {
+  "point": {
+   "x": 0,
+   "y": 46,
+   "z": -70
+  },
+  "yaw": 180
+ },
+ "build": {
+  "maxHeight": 40,
+  "areas": [],
+  "holes": [],
+  "voidEnforcement": {
+   "exclusions": []
+  }
+ },
+ "wools": [],
+ "destroyables": [],
+ "meta": {
+  "name": "Colour probe \u2014 flat",
+  "authors": [],
+  "contributors": []
+ }
+}

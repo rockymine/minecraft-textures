@@ -1,0 +1,3851 @@
+{
+ "bedrock": {
+  "anisotropy": 0.29,
+  "bevel": 0.03,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 5,
+  "contrast": 43.4,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "ramped",
+   "noise"
+  ],
+  "grain": 0.99,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "bookshelf": {
+  "anisotropy": 0.08,
+  "bevel": -0.26,
+  "colPeriod": 0.02,
+  "colRank": 16,
+  "colours": 29,
+  "contrast": 39.3,
+  "faces": [
+   "column"
+  ],
+  "flags": [
+   "masonry"
+  ],
+  "grain": 0.72,
+  "host": null,
+  "rowPeriod": 0.21,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 2
+ },
+ "brick": {
+  "anisotropy": 0.21,
+  "bevel": 0.09,
+  "colPeriod": 0.82,
+  "colRank": 16,
+  "colours": 62,
+  "contrast": 29.7,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "masonry"
+  ],
+  "grain": 0.76,
+  "host": null,
+  "rowPeriod": 0.82,
+  "rowRank": 15,
+  "seamCols": 0,
+  "seamRows": 3
+ },
+ "clay": {
+  "anisotropy": 0.04,
+  "bevel": -0.09,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 94,
+  "contrast": 6.7,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "flat"
+  ],
+  "grain": 1.05,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "coal_block": {
+  "anisotropy": 0.09,
+  "bevel": -0.67,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 6,
+  "contrast": 7.5,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "flat",
+   "ramped"
+  ],
+  "grain": 0.78,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "coal_ore": {
+  "anisotropy": 0.29,
+  "bevel": -0.51,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 8,
+  "contrast": 25.8,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "inlaid",
+   "ramped"
+  ],
+  "grain": 0.79,
+  "host": "stone",
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "coarse_dirt": {
+  "anisotropy": -0.0,
+  "bevel": 0.05,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 77,
+  "contrast": 26.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "inlaid"
+  ],
+  "grain": 1.15,
+  "host": "dirt",
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "cobblestone": {
+  "anisotropy": 0.1,
+  "bevel": 0.22,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 79,
+  "contrast": 29.2,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 0.99,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "cobblestone_mossy": {
+  "anisotropy": 0.06,
+  "bevel": 0.51,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 105,
+  "contrast": 35.8,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "bevelled"
+  ],
+  "grain": 0.95,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "command_block": {
+  "anisotropy": -0.01,
+  "bevel": -0.69,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 28,
+  "contrast": 33.5,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 0.9,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "crafting_table_front": {
+  "anisotropy": -0.22,
+  "bevel": -0.08,
+  "colPeriod": 0.27,
+  "colRank": 15,
+  "colours": 32,
+  "contrast": 58.0,
+  "faces": [
+   "faced"
+  ],
+  "flags": [
+   "inlaid"
+  ],
+  "grain": 0.73,
+  "host": "planks_oak",
+  "rowPeriod": 0.33,
+  "rowRank": 16,
+  "seamCols": 3,
+  "seamRows": 0
+ },
+ "crafting_table_side": {
+  "anisotropy": -0.17,
+  "bevel": -0.06,
+  "colPeriod": 0.43,
+  "colRank": 15,
+  "colours": 28,
+  "contrast": 52.3,
+  "faces": [
+   "faced"
+  ],
+  "flags": [
+   "inlaid",
+   "tiled"
+  ],
+  "grain": 0.75,
+  "host": "planks_oak",
+  "rowPeriod": 0.52,
+  "rowRank": 16,
+  "seamCols": 2,
+  "seamRows": 0
+ },
+ "crafting_table_top": {
+  "anisotropy": -0.02,
+  "bevel": -1.94,
+  "colPeriod": 0.11,
+  "colRank": 16,
+  "colours": 69,
+  "contrast": 44.9,
+  "faces": [
+   "faced"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 0.82,
+  "host": null,
+  "rowPeriod": 0.14,
+  "rowRank": 15,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "diamond_block": {
+  "anisotropy": 0.08,
+  "bevel": -4.71,
+  "colPeriod": 0.51,
+  "colRank": 15,
+  "colours": 47,
+  "contrast": 30.9,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled"
+  ],
+  "grain": 0.36,
+  "host": null,
+  "rowPeriod": 0.39,
+  "rowRank": 15,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "diamond_ore": {
+  "anisotropy": 0.26,
+  "bevel": -0.5,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 8,
+  "contrast": 33.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "inlaid",
+   "ramped"
+  ],
+  "grain": 0.78,
+  "host": "stone",
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 1
+ },
+ "dirt": {
+  "anisotropy": 0.05,
+  "bevel": -0.06,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 7,
+  "contrast": 23.1,
+  "faces": [
+   "bottom-top",
+   "uniform"
+  ],
+  "flags": [
+   "ramped",
+   "noise"
+  ],
+  "grain": 1.14,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "dirt_podzol_side": {
+  "anisotropy": 0.06,
+  "bevel": 0.4,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 58,
+  "contrast": 26.2,
+  "faces": [
+   "bottom-top"
+  ],
+  "flags": [
+   "inlaid"
+  ],
+  "grain": 0.9,
+  "host": "dirt",
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "dirt_podzol_top": {
+  "anisotropy": -0.02,
+  "bevel": 0.06,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 123,
+  "contrast": 16.0,
+  "faces": [
+   "bottom-top"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 0.98,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "dispenser_front_horizontal": {
+  "anisotropy": -0.01,
+  "bevel": -1.78,
+  "colPeriod": 0.18,
+  "colRank": 16,
+  "colours": 64,
+  "contrast": 55.8,
+  "faces": [
+   "faced"
+  ],
+  "flags": [
+   "inlaid"
+  ],
+  "grain": 0.53,
+  "host": "dispenser_front_vertical",
+  "rowPeriod": 0.09,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "dispenser_front_vertical": {
+  "anisotropy": 0.04,
+  "bevel": -1.3,
+  "colPeriod": 0.06,
+  "colRank": 16,
+  "colours": 83,
+  "contrast": 37.6,
+  "faces": [
+   "bottom-top"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 0.66,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 14,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "dropper_front_horizontal": {
+  "anisotropy": 0.06,
+  "bevel": -1.73,
+  "colPeriod": 0.15,
+  "colRank": 16,
+  "colours": 64,
+  "contrast": 56.4,
+  "faces": [
+   "faced"
+  ],
+  "flags": [
+   "inlaid"
+  ],
+  "grain": 0.54,
+  "host": "dropper_front_vertical",
+  "rowPeriod": 0.03,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "dropper_front_vertical": {
+  "anisotropy": 0.09,
+  "bevel": -1.32,
+  "colPeriod": 0.02,
+  "colRank": 16,
+  "colours": 79,
+  "contrast": 37.7,
+  "faces": [
+   "bottom-top"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 0.65,
+  "host": null,
+  "rowPeriod": 0.02,
+  "rowRank": 14,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "emerald_block": {
+  "anisotropy": 0.01,
+  "bevel": 1.39,
+  "colPeriod": 0.09,
+  "colRank": 16,
+  "colours": 113,
+  "contrast": 21.4,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "bevelled"
+  ],
+  "grain": 0.59,
+  "host": null,
+  "rowPeriod": 0.09,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "emerald_ore": {
+  "anisotropy": 0.07,
+  "bevel": 0.06,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 25,
+  "contrast": 29.3,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "inlaid"
+  ],
+  "grain": 0.9,
+  "host": "stone",
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "end_stone": {
+  "anisotropy": 0.11,
+  "bevel": 0.2,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 25,
+  "contrast": 21.6,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 0.97,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "furnace_front_off": {
+  "anisotropy": 0.15,
+  "bevel": -0.37,
+  "colPeriod": 0.13,
+  "colRank": 16,
+  "colours": 98,
+  "contrast": 55.0,
+  "faces": [
+   "faced"
+  ],
+  "flags": [
+   "masonry"
+  ],
+  "grain": 0.59,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 1
+ },
+ "furnace_front_on": {
+  "anisotropy": 0.03,
+  "bevel": 0.42,
+  "colPeriod": 0.07,
+  "colRank": 16,
+  "colours": 111,
+  "contrast": 67.9,
+  "faces": [
+   "faced"
+  ],
+  "flags": [
+   "inlaid"
+  ],
+  "grain": 0.61,
+  "host": "furnace_front_off",
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "furnace_side": {
+  "anisotropy": 0.18,
+  "bevel": -2.54,
+  "colPeriod": 0.35,
+  "colRank": 16,
+  "colours": 86,
+  "contrast": 45.4,
+  "faces": [
+   "faced"
+  ],
+  "flags": [
+   "inlaid"
+  ],
+  "grain": 0.49,
+  "host": "furnace_top",
+  "rowPeriod": 0.11,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "furnace_top": {
+  "anisotropy": 0.05,
+  "bevel": -3.48,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 84,
+  "contrast": 33.3,
+  "faces": [
+   "bottom-top",
+   "faced"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 0.67,
+  "host": null,
+  "rowPeriod": 0.02,
+  "rowRank": 14,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "glass": {
+  "anisotropy": 0.09,
+  "bevel": 0.81,
+  "colPeriod": 0.33,
+  "colRank": 15,
+  "colours": 3,
+  "contrast": 21.1,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "bevelled",
+   "ramped"
+  ],
+  "grain": 3.35,
+  "host": null,
+  "rowPeriod": 0.36,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "glass_black": {
+  "anisotropy": 0.0,
+  "bevel": 0.0,
+  "colPeriod": 1.0,
+  "colRank": 1,
+  "colours": 1,
+  "contrast": 0.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "panelled",
+   "flat",
+   "ramped"
+  ],
+  "grain": 0.0,
+  "host": null,
+  "rowPeriod": 1.0,
+  "rowRank": 1,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "glass_blue": {
+  "anisotropy": 0.0,
+  "bevel": -0.0,
+  "colPeriod": 1.0,
+  "colRank": 1,
+  "colours": 1,
+  "contrast": 0.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "panelled",
+   "flat",
+   "ramped"
+  ],
+  "grain": 0.0,
+  "host": null,
+  "rowPeriod": 1.0,
+  "rowRank": 1,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "glass_brown": {
+  "anisotropy": 0.0,
+  "bevel": 0.0,
+  "colPeriod": 1.0,
+  "colRank": 1,
+  "colours": 1,
+  "contrast": 0.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "panelled",
+   "flat",
+   "ramped"
+  ],
+  "grain": 0.0,
+  "host": null,
+  "rowPeriod": 1.0,
+  "rowRank": 1,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "glass_cyan": {
+  "anisotropy": 0.0,
+  "bevel": -0.0,
+  "colPeriod": 1.0,
+  "colRank": 1,
+  "colours": 1,
+  "contrast": 0.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "panelled",
+   "flat",
+   "ramped"
+  ],
+  "grain": 0.0,
+  "host": null,
+  "rowPeriod": 1.0,
+  "rowRank": 1,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "glass_gray": {
+  "anisotropy": 0.0,
+  "bevel": 0.0,
+  "colPeriod": 1.0,
+  "colRank": 1,
+  "colours": 1,
+  "contrast": 0.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "panelled",
+   "flat",
+   "ramped"
+  ],
+  "grain": 0.0,
+  "host": null,
+  "rowPeriod": 1.0,
+  "rowRank": 1,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "glass_green": {
+  "anisotropy": 0.0,
+  "bevel": -0.0,
+  "colPeriod": 1.0,
+  "colRank": 1,
+  "colours": 1,
+  "contrast": 0.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "panelled",
+   "flat",
+   "ramped"
+  ],
+  "grain": 0.0,
+  "host": null,
+  "rowPeriod": 1.0,
+  "rowRank": 1,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "glass_light_blue": {
+  "anisotropy": 0.0,
+  "bevel": 0.0,
+  "colPeriod": 1.0,
+  "colRank": 1,
+  "colours": 1,
+  "contrast": 0.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "panelled",
+   "flat",
+   "ramped"
+  ],
+  "grain": 0.0,
+  "host": null,
+  "rowPeriod": 1.0,
+  "rowRank": 1,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "glass_lime": {
+  "anisotropy": 0.0,
+  "bevel": -0.0,
+  "colPeriod": 1.0,
+  "colRank": 1,
+  "colours": 1,
+  "contrast": 0.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "panelled",
+   "flat",
+   "ramped"
+  ],
+  "grain": 0.0,
+  "host": null,
+  "rowPeriod": 1.0,
+  "rowRank": 1,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "glass_magenta": {
+  "anisotropy": 0.0,
+  "bevel": -0.0,
+  "colPeriod": 1.0,
+  "colRank": 1,
+  "colours": 1,
+  "contrast": 0.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "panelled",
+   "flat",
+   "ramped"
+  ],
+  "grain": 0.0,
+  "host": null,
+  "rowPeriod": 1.0,
+  "rowRank": 1,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "glass_orange": {
+  "anisotropy": 0.0,
+  "bevel": -0.0,
+  "colPeriod": 1.0,
+  "colRank": 1,
+  "colours": 1,
+  "contrast": 0.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "panelled",
+   "flat",
+   "ramped"
+  ],
+  "grain": 0.0,
+  "host": null,
+  "rowPeriod": 1.0,
+  "rowRank": 1,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "glass_pink": {
+  "anisotropy": 0.0,
+  "bevel": -0.0,
+  "colPeriod": 1.0,
+  "colRank": 1,
+  "colours": 1,
+  "contrast": 0.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "panelled",
+   "flat",
+   "ramped"
+  ],
+  "grain": 0.0,
+  "host": null,
+  "rowPeriod": 1.0,
+  "rowRank": 1,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "glass_purple": {
+  "anisotropy": 0.0,
+  "bevel": -0.0,
+  "colPeriod": 1.0,
+  "colRank": 1,
+  "colours": 1,
+  "contrast": 0.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "panelled",
+   "flat",
+   "ramped"
+  ],
+  "grain": 0.0,
+  "host": null,
+  "rowPeriod": 1.0,
+  "rowRank": 1,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "glass_red": {
+  "anisotropy": 0.0,
+  "bevel": -0.0,
+  "colPeriod": 1.0,
+  "colRank": 1,
+  "colours": 1,
+  "contrast": 0.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "panelled",
+   "flat",
+   "ramped"
+  ],
+  "grain": 0.0,
+  "host": null,
+  "rowPeriod": 1.0,
+  "rowRank": 1,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "glass_silver": {
+  "anisotropy": 0.0,
+  "bevel": 0.0,
+  "colPeriod": 1.0,
+  "colRank": 1,
+  "colours": 1,
+  "contrast": 0.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "panelled",
+   "flat",
+   "ramped"
+  ],
+  "grain": 0.0,
+  "host": null,
+  "rowPeriod": 1.0,
+  "rowRank": 1,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "glass_white": {
+  "anisotropy": 0.0,
+  "bevel": 0.0,
+  "colPeriod": 1.0,
+  "colRank": 1,
+  "colours": 1,
+  "contrast": 0.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "panelled",
+   "flat",
+   "ramped"
+  ],
+  "grain": 0.0,
+  "host": null,
+  "rowPeriod": 1.0,
+  "rowRank": 1,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "glass_yellow": {
+  "anisotropy": 0.0,
+  "bevel": -0.0,
+  "colPeriod": 1.0,
+  "colRank": 1,
+  "colours": 1,
+  "contrast": 0.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "panelled",
+   "flat",
+   "ramped"
+  ],
+  "grain": 0.0,
+  "host": null,
+  "rowPeriod": 1.0,
+  "rowRank": 1,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "glowstone": {
+  "anisotropy": 0.03,
+  "bevel": -0.06,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 7,
+  "contrast": 57.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "ramped",
+   "noise"
+  ],
+  "grain": 0.93,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "gold_block": {
+  "anisotropy": 0.07,
+  "bevel": -5.05,
+  "colPeriod": 0.49,
+  "colRank": 12,
+  "colours": 218,
+  "contrast": 16.1,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "panelled",
+   "dithered"
+  ],
+  "grain": 0.36,
+  "host": null,
+  "rowPeriod": 0.38,
+  "rowRank": 15,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "gold_ore": {
+  "anisotropy": 0.27,
+  "bevel": -0.5,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 8,
+  "contrast": 37.6,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "inlaid",
+   "ramped"
+  ],
+  "grain": 0.75,
+  "host": "stone",
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 1
+ },
+ "grass_side_snowed": {
+  "anisotropy": 0.03,
+  "bevel": 0.07,
+  "colPeriod": 0.38,
+  "colRank": 16,
+  "colours": 9,
+  "contrast": 60.9,
+  "faces": [
+   "bottom-top"
+  ],
+  "flags": [
+   "inlaid",
+   "ramped"
+  ],
+  "grain": 0.53,
+  "host": "dirt",
+  "rowPeriod": 0.02,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "grass_top": {
+  "anisotropy": 0.03,
+  "bevel": 0.08,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 66,
+  "contrast": 17.7,
+  "faces": [
+   "bottom-top"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 1.2,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "gravel": {
+  "anisotropy": -0.01,
+  "bevel": 0.02,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 54,
+  "contrast": 22.2,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 1.04,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "hardened_clay": {
+  "anisotropy": 0.19,
+  "bevel": 0.19,
+  "colPeriod": 0.0,
+  "colRank": 15,
+  "colours": 82,
+  "contrast": 3.6,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 0.9,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 12,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "hardened_clay_stained_black": {
+  "anisotropy": 0.18,
+  "bevel": 0.21,
+  "colPeriod": 0.0,
+  "colRank": 1,
+  "colours": 32,
+  "contrast": 0.9,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 0.89,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 1,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "hardened_clay_stained_blue": {
+  "anisotropy": 0.2,
+  "bevel": 0.16,
+  "colPeriod": 0.0,
+  "colRank": 1,
+  "colours": 45,
+  "contrast": 1.4,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 0.9,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 1,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "hardened_clay_stained_brown": {
+  "anisotropy": 0.18,
+  "bevel": 0.22,
+  "colPeriod": 0.0,
+  "colRank": 1,
+  "colours": 47,
+  "contrast": 1.4,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 0.88,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 1,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "hardened_clay_stained_cyan": {
+  "anisotropy": 0.18,
+  "bevel": 0.21,
+  "colPeriod": 0.0,
+  "colRank": 2,
+  "colours": 67,
+  "contrast": 1.9,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 0.89,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 3,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "hardened_clay_stained_gray": {
+  "anisotropy": 0.18,
+  "bevel": 0.17,
+  "colPeriod": 0.0,
+  "colRank": 1,
+  "colours": 39,
+  "contrast": 1.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 0.9,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 1,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "hardened_clay_stained_green": {
+  "anisotropy": 0.2,
+  "bevel": 0.2,
+  "colPeriod": 0.0,
+  "colRank": 1,
+  "colours": 47,
+  "contrast": 1.3,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 0.89,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 1,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "hardened_clay_stained_light_blue": {
+  "anisotropy": 0.18,
+  "bevel": 0.19,
+  "colPeriod": 0.0,
+  "colRank": 1,
+  "colours": 44,
+  "contrast": 1.4,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 0.9,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 1,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "hardened_clay_stained_lime": {
+  "anisotropy": 0.18,
+  "bevel": 0.22,
+  "colPeriod": 0.0,
+  "colRank": 2,
+  "colours": 62,
+  "contrast": 2.1,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 0.88,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 4,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "hardened_clay_stained_magenta": {
+  "anisotropy": 0.19,
+  "bevel": 0.22,
+  "colPeriod": 0.0,
+  "colRank": 3,
+  "colours": 69,
+  "contrast": 2.2,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 0.89,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 4,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "hardened_clay_stained_orange": {
+  "anisotropy": 0.2,
+  "bevel": 0.18,
+  "colPeriod": 0.0,
+  "colRank": 2,
+  "colours": 68,
+  "contrast": 2.1,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 0.89,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 4,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "hardened_clay_stained_pink": {
+  "anisotropy": 0.19,
+  "bevel": 0.22,
+  "colPeriod": 0.0,
+  "colRank": 4,
+  "colours": 72,
+  "contrast": 2.2,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 0.9,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 4,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "hardened_clay_stained_purple": {
+  "anisotropy": 0.19,
+  "bevel": 0.19,
+  "colPeriod": 0.0,
+  "colRank": 2,
+  "colours": 70,
+  "contrast": 2.2,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 0.9,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 4,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "hardened_clay_stained_red": {
+  "anisotropy": 0.2,
+  "bevel": 0.21,
+  "colPeriod": 0.0,
+  "colRank": 4,
+  "colours": 66,
+  "contrast": 2.1,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 0.89,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 4,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "hardened_clay_stained_silver": {
+  "anisotropy": 0.18,
+  "bevel": 0.18,
+  "colPeriod": 0.0,
+  "colRank": 1,
+  "colours": 51,
+  "contrast": 1.6,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 0.91,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 1,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "hardened_clay_stained_white": {
+  "anisotropy": 0.18,
+  "bevel": 0.2,
+  "colPeriod": 0.0,
+  "colRank": 2,
+  "colours": 52,
+  "contrast": 2.1,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 0.9,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 3,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "hardened_clay_stained_yellow": {
+  "anisotropy": 0.18,
+  "bevel": 0.21,
+  "colPeriod": 0.0,
+  "colRank": 3,
+  "colours": 70,
+  "contrast": 2.2,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 0.9,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 5,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "hay_block_side": {
+  "anisotropy": 0.23,
+  "bevel": -0.02,
+  "colPeriod": 0.6,
+  "colRank": 16,
+  "colours": 205,
+  "contrast": 31.6,
+  "faces": [
+   "column"
+  ],
+  "flags": [
+   "tiled",
+   "masonry",
+   "dithered"
+  ],
+  "grain": 0.66,
+  "host": null,
+  "rowPeriod": 0.36,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 5
+ },
+ "hay_block_top": {
+  "anisotropy": 0.03,
+  "bevel": -0.11,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 160,
+  "contrast": 15.7,
+  "faces": [
+   "column"
+  ],
+  "flags": [
+   "dithered",
+   "noise"
+  ],
+  "grain": 1.46,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "ice": {
+  "anisotropy": 0.0,
+  "bevel": -0.25,
+  "colPeriod": 0.07,
+  "colRank": 13,
+  "colours": 3,
+  "contrast": 18.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "ramped",
+   "noise"
+  ],
+  "grain": 0.54,
+  "host": null,
+  "rowPeriod": 0.02,
+  "rowRank": 13,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "ice_packed": {
+  "anisotropy": -0.0,
+  "bevel": -0.89,
+  "colPeriod": 0.04,
+  "colRank": 14,
+  "colours": 92,
+  "contrast": 7.7,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 0.54,
+  "host": null,
+  "rowPeriod": 0.03,
+  "rowRank": 12,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "iron_block": {
+  "anisotropy": 0.42,
+  "bevel": -4.97,
+  "colPeriod": 0.58,
+  "colRank": 10,
+  "colours": 38,
+  "contrast": 18.5,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "panelled",
+   "grained-x"
+  ],
+  "grain": 0.51,
+  "host": null,
+  "rowPeriod": 0.06,
+  "rowRank": 8,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "iron_ore": {
+  "anisotropy": 0.27,
+  "bevel": -0.42,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 8,
+  "contrast": 20.4,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "inlaid",
+   "ramped"
+  ],
+  "grain": 0.89,
+  "host": "stone",
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 1
+ },
+ "jukebox_side": {
+  "anisotropy": -0.18,
+  "bevel": -1.35,
+  "colPeriod": 0.58,
+  "colRank": 16,
+  "colours": 30,
+  "contrast": 26.1,
+  "faces": [
+   "bottom-top"
+  ],
+  "flags": [
+   "tiled"
+  ],
+  "grain": 1.18,
+  "host": null,
+  "rowPeriod": 0.52,
+  "rowRank": 14,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "jukebox_top": {
+  "anisotropy": -0.11,
+  "bevel": -1.55,
+  "colPeriod": 0.55,
+  "colRank": 16,
+  "colours": 22,
+  "contrast": 29.4,
+  "faces": [
+   "bottom-top"
+  ],
+  "flags": [
+   "tiled"
+  ],
+  "grain": 0.48,
+  "host": null,
+  "rowPeriod": 0.47,
+  "rowRank": 14,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "lapis_block": {
+  "anisotropy": -0.07,
+  "bevel": 2.07,
+  "colPeriod": 0.03,
+  "colRank": 16,
+  "colours": 191,
+  "contrast": 9.5,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "bevelled",
+   "dithered"
+  ],
+  "grain": 0.57,
+  "host": null,
+  "rowPeriod": 0.09,
+  "rowRank": 15,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "lapis_ore": {
+  "anisotropy": 0.18,
+  "bevel": -0.65,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 56,
+  "contrast": 26.6,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "inlaid"
+  ],
+  "grain": 0.81,
+  "host": "stone",
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "log_acacia": {
+  "anisotropy": -0.48,
+  "bevel": 0.58,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 45,
+  "contrast": 21.4,
+  "faces": [
+   "column",
+   "uniform"
+  ],
+  "flags": [
+   "bevelled",
+   "grained-y"
+  ],
+  "grain": 1.01,
+  "host": null,
+  "rowPeriod": 0.09,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "log_acacia_top": {
+  "anisotropy": -0.04,
+  "bevel": -3.52,
+  "colPeriod": 0.07,
+  "colRank": 16,
+  "colours": 46,
+  "contrast": 12.3,
+  "faces": [
+   "column"
+  ],
+  "flags": [
+   "masonry"
+  ],
+  "grain": 0.61,
+  "host": null,
+  "rowPeriod": 0.11,
+  "rowRank": 16,
+  "seamCols": 1,
+  "seamRows": 1
+ },
+ "log_big_oak": {
+  "anisotropy": -0.49,
+  "bevel": 0.58,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 35,
+  "contrast": 13.1,
+  "faces": [
+   "column",
+   "uniform"
+  ],
+  "flags": [
+   "bevelled",
+   "grained-y"
+  ],
+  "grain": 1.0,
+  "host": null,
+  "rowPeriod": 0.1,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "log_big_oak_top": {
+  "anisotropy": -0.02,
+  "bevel": -6.13,
+  "colPeriod": 0.33,
+  "colRank": 15,
+  "colours": 47,
+  "contrast": 17.0,
+  "faces": [
+   "column"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 0.53,
+  "host": null,
+  "rowPeriod": 0.34,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "log_birch": {
+  "anisotropy": 0.3,
+  "bevel": 0.28,
+  "colPeriod": 0.07,
+  "colRank": 16,
+  "colours": 214,
+  "contrast": 59.9,
+  "faces": [
+   "column",
+   "uniform"
+  ],
+  "flags": [
+   "dithered",
+   "noise"
+  ],
+  "grain": 0.61,
+  "host": null,
+  "rowPeriod": 0.02,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "log_birch_top": {
+  "anisotropy": 0.01,
+  "bevel": 0.93,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 95,
+  "contrast": 42.9,
+  "faces": [
+   "column"
+  ],
+  "flags": [
+   "bevelled"
+  ],
+  "grain": 0.58,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "log_jungle": {
+  "anisotropy": 0.51,
+  "bevel": 0.14,
+  "colPeriod": 0.12,
+  "colRank": 16,
+  "colours": 108,
+  "contrast": 17.3,
+  "faces": [
+   "column",
+   "uniform"
+  ],
+  "flags": [
+   "grained-x"
+  ],
+  "grain": 0.96,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "log_jungle_top": {
+  "anisotropy": 0.06,
+  "bevel": -9.01,
+  "colPeriod": 0.44,
+  "colRank": 16,
+  "colours": 77,
+  "contrast": 33.6,
+  "faces": [
+   "column"
+  ],
+  "flags": [
+   "tiled"
+  ],
+  "grain": 0.47,
+  "host": null,
+  "rowPeriod": 0.38,
+  "rowRank": 15,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "log_oak": {
+  "anisotropy": -0.49,
+  "bevel": 0.58,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 49,
+  "contrast": 26.1,
+  "faces": [
+   "column",
+   "uniform"
+  ],
+  "flags": [
+   "bevelled",
+   "grained-y"
+  ],
+  "grain": 1.01,
+  "host": null,
+  "rowPeriod": 0.1,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "log_oak_top": {
+  "anisotropy": -0.02,
+  "bevel": -6.49,
+  "colPeriod": 0.35,
+  "colRank": 16,
+  "colours": 48,
+  "contrast": 33.1,
+  "faces": [
+   "column"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 0.52,
+  "host": null,
+  "rowPeriod": 0.36,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "log_spruce": {
+  "anisotropy": -0.48,
+  "bevel": 0.59,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 36,
+  "contrast": 16.7,
+  "faces": [
+   "column",
+   "uniform"
+  ],
+  "flags": [
+   "bevelled",
+   "grained-y"
+  ],
+  "grain": 1.0,
+  "host": null,
+  "rowPeriod": 0.1,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "log_spruce_top": {
+  "anisotropy": -0.03,
+  "bevel": -5.71,
+  "colPeriod": 0.29,
+  "colRank": 16,
+  "colours": 42,
+  "contrast": 19.6,
+  "faces": [
+   "column"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 0.55,
+  "host": null,
+  "rowPeriod": 0.3,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "melon_side": {
+  "anisotropy": -0.53,
+  "bevel": -0.55,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 52,
+  "contrast": 27.1,
+  "faces": [
+   "column"
+  ],
+  "flags": [
+   "tiled",
+   "masonry",
+   "grained-y"
+  ],
+  "grain": 0.57,
+  "host": null,
+  "rowPeriod": 0.52,
+  "rowRank": 16,
+  "seamCols": 1,
+  "seamRows": 0
+ },
+ "melon_top": {
+  "anisotropy": -0.06,
+  "bevel": -0.51,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 11,
+  "contrast": 23.2,
+  "faces": [
+   "column"
+  ],
+  "flags": [
+   "ramped",
+   "noise"
+  ],
+  "grain": 0.84,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "mob_spawner": {
+  "anisotropy": 0.0,
+  "bevel": -0.13,
+  "colPeriod": 0.52,
+  "colRank": 11,
+  "colours": 36,
+  "contrast": 5.3,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "panelled",
+   "flat"
+  ],
+  "grain": 3.54,
+  "host": null,
+  "rowPeriod": 0.52,
+  "rowRank": 11,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "mushroom_block_inside": {
+  "anisotropy": -0.03,
+  "bevel": 0.17,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 15,
+  "contrast": 11.5,
+  "faces": [
+   "bottom-top",
+   "column",
+   "faced",
+   "uniform"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 0.96,
+  "host": null,
+  "rowPeriod": 0.01,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "mushroom_block_skin_brown": {
+  "anisotropy": -0.1,
+  "bevel": -0.16,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 58,
+  "contrast": 11.7,
+  "faces": [
+   "bottom-top",
+   "faced",
+   "uniform"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 0.88,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "mushroom_block_skin_red": {
+  "anisotropy": -0.02,
+  "bevel": -0.23,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 33,
+  "contrast": 30.0,
+  "faces": [
+   "bottom-top",
+   "faced",
+   "uniform"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 0.39,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "mushroom_block_skin_stem": {
+  "anisotropy": -0.54,
+  "bevel": 0.46,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 27,
+  "contrast": 11.9,
+  "faces": [
+   "column",
+   "uniform"
+  ],
+  "flags": [
+   "masonry",
+   "grained-y"
+  ],
+  "grain": 0.93,
+  "host": null,
+  "rowPeriod": 0.31,
+  "rowRank": 16,
+  "seamCols": 2,
+  "seamRows": 0
+ },
+ "mycelium_side": {
+  "anisotropy": 0.02,
+  "bevel": -0.13,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 47,
+  "contrast": 27.0,
+  "faces": [
+   "bottom-top"
+  ],
+  "flags": [
+   "inlaid"
+  ],
+  "grain": 0.92,
+  "host": "dirt",
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "mycelium_top": {
+  "anisotropy": -0.03,
+  "bevel": 0.17,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 60,
+  "contrast": 10.6,
+  "faces": [
+   "bottom-top"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 0.99,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "nether_brick": {
+  "anisotropy": 0.36,
+  "bevel": -0.06,
+  "colPeriod": 0.51,
+  "colRank": 15,
+  "colours": 24,
+  "contrast": 8.2,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "masonry",
+   "grained-x"
+  ],
+  "grain": 0.83,
+  "host": null,
+  "rowPeriod": 0.25,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 3
+ },
+ "netherrack": {
+  "anisotropy": -0.04,
+  "bevel": 0.07,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 137,
+  "contrast": 40.6,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 1.02,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "noteblock": {
+  "anisotropy": -0.18,
+  "bevel": -1.35,
+  "colPeriod": 0.58,
+  "colRank": 16,
+  "colours": 30,
+  "contrast": 26.1,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled"
+  ],
+  "grain": 1.18,
+  "host": null,
+  "rowPeriod": 0.52,
+  "rowRank": 14,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "obsidian": {
+  "anisotropy": 0.08,
+  "bevel": -0.36,
+  "colPeriod": 0.0,
+  "colRank": 15,
+  "colours": 73,
+  "contrast": 11.8,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "masonry"
+  ],
+  "grain": 0.78,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 1
+ },
+ "piston_bottom": {
+  "anisotropy": 0.05,
+  "bevel": -3.48,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 84,
+  "contrast": 33.3,
+  "faces": [
+   "bottom-top"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 0.67,
+  "host": null,
+  "rowPeriod": 0.02,
+  "rowRank": 14,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "piston_side": {
+  "anisotropy": 0.13,
+  "bevel": 0.64,
+  "colPeriod": 0.1,
+  "colRank": 16,
+  "colours": 95,
+  "contrast": 38.3,
+  "faces": [
+   "bottom-top"
+  ],
+  "flags": [
+   "masonry",
+   "bevelled"
+  ],
+  "grain": 0.67,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 1
+ },
+ "piston_top_normal": {
+  "anisotropy": 0.31,
+  "bevel": -0.54,
+  "colPeriod": 0.29,
+  "colRank": 16,
+  "colours": 24,
+  "contrast": 42.0,
+  "faces": [
+   "bottom-top"
+  ],
+  "flags": [
+   "masonry"
+  ],
+  "grain": 0.72,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 4
+ },
+ "piston_top_sticky": {
+  "anisotropy": 0.19,
+  "bevel": -0.04,
+  "colPeriod": 0.11,
+  "colRank": 16,
+  "colours": 92,
+  "contrast": 40.5,
+  "faces": [
+   "bottom-top"
+  ],
+  "flags": [
+   "masonry"
+  ],
+  "grain": 0.77,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 3
+ },
+ "planks_acacia": {
+  "anisotropy": 0.6,
+  "bevel": 0.64,
+  "colPeriod": 0.5,
+  "colRank": 15,
+  "colours": 9,
+  "contrast": 13.3,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "masonry",
+   "bevelled",
+   "ramped",
+   "grained-x"
+  ],
+  "grain": 0.8,
+  "host": null,
+  "rowPeriod": 0.59,
+  "rowRank": 14,
+  "seamCols": 0,
+  "seamRows": 4
+ },
+ "planks_big_oak": {
+  "anisotropy": 0.59,
+  "bevel": 0.68,
+  "colPeriod": 0.48,
+  "colRank": 14,
+  "colours": 7,
+  "contrast": 8.7,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "masonry",
+   "bevelled",
+   "ramped",
+   "grained-x"
+  ],
+  "grain": 0.82,
+  "host": null,
+  "rowPeriod": 0.55,
+  "rowRank": 13,
+  "seamCols": 0,
+  "seamRows": 5
+ },
+ "planks_birch": {
+  "anisotropy": 0.6,
+  "bevel": 0.65,
+  "colPeriod": 0.51,
+  "colRank": 16,
+  "colours": 9,
+  "contrast": 21.7,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "masonry",
+   "bevelled",
+   "ramped",
+   "grained-x"
+  ],
+  "grain": 0.8,
+  "host": null,
+  "rowPeriod": 0.6,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 4
+ },
+ "planks_jungle": {
+  "anisotropy": 0.54,
+  "bevel": 0.66,
+  "colPeriod": 0.42,
+  "colRank": 16,
+  "colours": 8,
+  "contrast": 25.5,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "masonry",
+   "bevelled",
+   "ramped",
+   "grained-x"
+  ],
+  "grain": 0.84,
+  "host": null,
+  "rowPeriod": 0.53,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 4
+ },
+ "planks_oak": {
+  "anisotropy": 0.58,
+  "bevel": 0.69,
+  "colPeriod": 0.47,
+  "colRank": 16,
+  "colours": 7,
+  "contrast": 26.2,
+  "faces": [
+   "column",
+   "faced",
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "masonry",
+   "bevelled",
+   "ramped",
+   "grained-x"
+  ],
+  "grain": 0.82,
+  "host": null,
+  "rowPeriod": 0.53,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 5
+ },
+ "planks_spruce": {
+  "anisotropy": 0.61,
+  "bevel": 0.67,
+  "colPeriod": 0.46,
+  "colRank": 15,
+  "colours": 9,
+  "contrast": 16.8,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "masonry",
+   "bevelled",
+   "ramped",
+   "grained-x"
+  ],
+  "grain": 0.83,
+  "host": null,
+  "rowPeriod": 0.51,
+  "rowRank": 14,
+  "seamCols": 0,
+  "seamRows": 4
+ },
+ "prismarine_bricks": {
+  "anisotropy": -0.07,
+  "bevel": 1.27,
+  "colPeriod": 0.13,
+  "colRank": 16,
+  "colours": 233,
+  "contrast": 25.1,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "bevelled",
+   "dithered"
+  ],
+  "grain": 0.95,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "prismarine_dark": {
+  "anisotropy": 0.04,
+  "bevel": 0.71,
+  "colPeriod": 0.32,
+  "colRank": 16,
+  "colours": 215,
+  "contrast": 18.3,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "masonry",
+   "bevelled",
+   "dithered"
+  ],
+  "grain": 1.02,
+  "host": null,
+  "rowPeriod": 0.27,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 1
+ },
+ "prismarine_rough": {
+  "anisotropy": 0.04,
+  "bevel": -0.01,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 227,
+  "contrast": 27.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "dithered",
+   "noise"
+  ],
+  "grain": 1.1,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "pumpkin_face_off": {
+  "anisotropy": -0.16,
+  "bevel": -0.74,
+  "colPeriod": 0.11,
+  "colRank": 15,
+  "colours": 6,
+  "contrast": 48.8,
+  "faces": [
+   "faced"
+  ],
+  "flags": [
+   "inlaid",
+   "ramped"
+  ],
+  "grain": 0.61,
+  "host": "pumpkin_side",
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "pumpkin_face_on": {
+  "anisotropy": -0.13,
+  "bevel": -0.2,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 34,
+  "contrast": 56.5,
+  "faces": [
+   "faced"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 0.87,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "pumpkin_side": {
+  "anisotropy": -0.61,
+  "bevel": -1.02,
+  "colPeriod": 0.31,
+  "colRank": 15,
+  "colours": 4,
+  "contrast": 26.0,
+  "faces": [
+   "faced"
+  ],
+  "flags": [
+   "tiled",
+   "masonry",
+   "ramped",
+   "grained-y"
+  ],
+  "grain": 0.73,
+  "host": null,
+  "rowPeriod": 0.52,
+  "rowRank": 16,
+  "seamCols": 4,
+  "seamRows": 0
+ },
+ "pumpkin_top": {
+  "anisotropy": -0.02,
+  "bevel": -0.32,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 7,
+  "contrast": 29.0,
+  "faces": [
+   "faced"
+  ],
+  "flags": [
+   "ramped",
+   "noise"
+  ],
+  "grain": 1.04,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "quartz_block_bottom": {
+  "anisotropy": -0.01,
+  "bevel": -0.32,
+  "colPeriod": 0.0,
+  "colRank": 12,
+  "colours": 39,
+  "contrast": 5.3,
+  "faces": [
+   "bottom-top"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 0.49,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 11,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "quartz_block_chiseled": {
+  "anisotropy": 0.01,
+  "bevel": 0.55,
+  "colPeriod": 0.05,
+  "colRank": 16,
+  "colours": 32,
+  "contrast": 8.1,
+  "faces": [
+   "column"
+  ],
+  "flags": [
+   "bevelled"
+  ],
+  "grain": 0.97,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "quartz_block_chiseled_top": {
+  "anisotropy": 0.01,
+  "bevel": 0.47,
+  "colPeriod": 0.13,
+  "colRank": 16,
+  "colours": 32,
+  "contrast": 7.8,
+  "faces": [
+   "column"
+  ],
+  "flags": [
+   "flat"
+  ],
+  "grain": 0.93,
+  "host": null,
+  "rowPeriod": 0.11,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "quartz_block_lines": {
+  "anisotropy": -0.88,
+  "bevel": -0.0,
+  "colPeriod": 0.83,
+  "colRank": 6,
+  "colours": 27,
+  "contrast": 9.4,
+  "faces": [
+   "column"
+  ],
+  "flags": [
+   "tiled",
+   "masonry",
+   "panelled",
+   "grained-y"
+  ],
+  "grain": 0.66,
+  "host": null,
+  "rowPeriod": 0.86,
+  "rowRank": 4,
+  "seamCols": 9,
+  "seamRows": 0
+ },
+ "quartz_block_lines_top": {
+  "anisotropy": -0.01,
+  "bevel": -1.44,
+  "colPeriod": 0.17,
+  "colRank": 9,
+  "colours": 36,
+  "contrast": 7.2,
+  "faces": [
+   "column"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 0.72,
+  "host": null,
+  "rowPeriod": 0.2,
+  "rowRank": 11,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "quartz_block_side": {
+  "anisotropy": 0.03,
+  "bevel": 0.93,
+  "colPeriod": 0.24,
+  "colRank": 7,
+  "colours": 38,
+  "contrast": 5.3,
+  "faces": [
+   "bottom-top"
+  ],
+  "flags": [
+   "panelled",
+   "bevelled",
+   "flat"
+  ],
+  "grain": 0.41,
+  "host": null,
+  "rowPeriod": 0.18,
+  "rowRank": 8,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "quartz_block_top": {
+  "anisotropy": 0.03,
+  "bevel": 0.93,
+  "colPeriod": 0.24,
+  "colRank": 7,
+  "colours": 38,
+  "contrast": 5.3,
+  "faces": [
+   "bottom-top",
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "bevelled",
+   "flat"
+  ],
+  "grain": 0.41,
+  "host": null,
+  "rowPeriod": 0.18,
+  "rowRank": 8,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "quartz_ore": {
+  "anisotropy": 0.01,
+  "bevel": -0.03,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 203,
+  "contrast": 66.1,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "inlaid",
+   "dithered"
+  ],
+  "grain": 0.91,
+  "host": "netherrack",
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "red_sand": {
+  "anisotropy": 0.02,
+  "bevel": -0.01,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 176,
+  "contrast": 8.7,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "dithered",
+   "noise"
+  ],
+  "grain": 1.11,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "red_sandstone_bottom": {
+  "anisotropy": 0.01,
+  "bevel": -0.24,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 69,
+  "contrast": 6.6,
+  "faces": [
+   "bottom-top"
+  ],
+  "flags": [
+   "inlaid",
+   "flat"
+  ],
+  "grain": 1.19,
+  "host": "red_sandstone_smooth",
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "red_sandstone_carved": {
+  "anisotropy": 0.22,
+  "bevel": 0.84,
+  "colPeriod": 0.19,
+  "colRank": 15,
+  "colours": 93,
+  "contrast": 7.9,
+  "faces": [
+   "column"
+  ],
+  "flags": [
+   "inlaid",
+   "bevelled",
+   "flat"
+  ],
+  "grain": 0.8,
+  "host": "red_sandstone_smooth",
+  "rowPeriod": 0.0,
+  "rowRank": 15,
+  "seamCols": 0,
+  "seamRows": 2
+ },
+ "red_sandstone_normal": {
+  "anisotropy": 0.17,
+  "bevel": 0.02,
+  "colPeriod": 0.0,
+  "colRank": 15,
+  "colours": 128,
+  "contrast": 7.6,
+  "faces": [
+   "bottom-top"
+  ],
+  "flags": [
+   "masonry",
+   "flat"
+  ],
+  "grain": 1.03,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 1
+ },
+ "red_sandstone_smooth": {
+  "anisotropy": 0.15,
+  "bevel": 1.3,
+  "colPeriod": 0.18,
+  "colRank": 14,
+  "colours": 74,
+  "contrast": 6.5,
+  "faces": [
+   "column"
+  ],
+  "flags": [
+   "masonry",
+   "panelled",
+   "bevelled",
+   "flat"
+  ],
+  "grain": 0.66,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 12,
+  "seamCols": 0,
+  "seamRows": 1
+ },
+ "red_sandstone_top": {
+  "anisotropy": -0.03,
+  "bevel": -0.26,
+  "colPeriod": 0.0,
+  "colRank": 9,
+  "colours": 86,
+  "contrast": 3.1,
+  "faces": [
+   "bottom-top",
+   "column",
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 0.86,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 10,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "redstone_block": {
+  "anisotropy": -0.03,
+  "bevel": -2.71,
+  "colPeriod": 0.28,
+  "colRank": 16,
+  "colours": 92,
+  "contrast": 17.5,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 0.43,
+  "host": null,
+  "rowPeriod": 0.32,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "redstone_lamp_off": {
+  "anisotropy": -0.0,
+  "bevel": -1.38,
+  "colPeriod": 0.0,
+  "colRank": 15,
+  "colours": 113,
+  "contrast": 35.9,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 0.69,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 15,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "redstone_lamp_on": {
+  "anisotropy": -0.0,
+  "bevel": -1.38,
+  "colPeriod": 0.0,
+  "colRank": 15,
+  "colours": 127,
+  "contrast": 68.6,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 0.72,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 15,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "redstone_ore": {
+  "anisotropy": 0.27,
+  "bevel": -0.51,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 9,
+  "contrast": 27.3,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "inlaid",
+   "ramped"
+  ],
+  "grain": 0.79,
+  "host": "stone",
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "sand": {
+  "anisotropy": 0.03,
+  "bevel": 0.02,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 140,
+  "contrast": 14.1,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 1.1,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "sandstone_bottom": {
+  "anisotropy": 0.01,
+  "bevel": -0.25,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 133,
+  "contrast": 14.1,
+  "faces": [
+   "bottom-top"
+  ],
+  "flags": [
+   "inlaid"
+  ],
+  "grain": 1.19,
+  "host": "sandstone_top",
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "sandstone_carved": {
+  "anisotropy": 0.26,
+  "bevel": 1.2,
+  "colPeriod": 0.18,
+  "colRank": 16,
+  "colours": 107,
+  "contrast": 16.7,
+  "faces": [
+   "column"
+  ],
+  "flags": [
+   "inlaid",
+   "bevelled"
+  ],
+  "grain": 0.86,
+  "host": "sandstone_smooth",
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 3
+ },
+ "sandstone_normal": {
+  "anisotropy": 0.17,
+  "bevel": 0.03,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 191,
+  "contrast": 16.1,
+  "faces": [
+   "bottom-top"
+  ],
+  "flags": [
+   "masonry",
+   "dithered"
+  ],
+  "grain": 1.03,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 1
+ },
+ "sandstone_smooth": {
+  "anisotropy": 0.16,
+  "bevel": 1.29,
+  "colPeriod": 0.17,
+  "colRank": 16,
+  "colours": 92,
+  "contrast": 13.7,
+  "faces": [
+   "column"
+  ],
+  "flags": [
+   "masonry",
+   "bevelled"
+  ],
+  "grain": 0.66,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 1
+ },
+ "sandstone_top": {
+  "anisotropy": -0.03,
+  "bevel": -0.24,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 208,
+  "contrast": 6.3,
+  "faces": [
+   "bottom-top",
+   "column",
+   "uniform"
+  ],
+  "flags": [
+   "flat",
+   "dithered"
+  ],
+  "grain": 0.87,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "sea_lantern": {
+  "anisotropy": -0.0,
+  "bevel": -10.41,
+  "colPeriod": 0.5,
+  "colRank": 14,
+  "colours": 208,
+  "contrast": 47.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "tiled",
+   "dithered"
+  ],
+  "grain": 0.3,
+  "host": null,
+  "rowPeriod": 0.49,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "snow": {
+  "anisotropy": 0.09,
+  "bevel": 0.85,
+  "colPeriod": 0.0,
+  "colRank": 15,
+  "colours": 4,
+  "contrast": 6.9,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "bevelled",
+   "flat",
+   "ramped"
+  ],
+  "grain": 0.88,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "soul_sand": {
+  "anisotropy": -0.01,
+  "bevel": 0.51,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 98,
+  "contrast": 24.5,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "bevelled"
+  ],
+  "grain": 1.06,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "sponge": {
+  "anisotropy": -0.0,
+  "bevel": -0.02,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 206,
+  "contrast": 22.8,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "dithered",
+   "noise"
+  ],
+  "grain": 1.06,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "sponge_wet": {
+  "anisotropy": 0.01,
+  "bevel": -1.4,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 231,
+  "contrast": 25.2,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "dithered",
+   "noise"
+  ],
+  "grain": 0.91,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "stone": {
+  "anisotropy": 0.33,
+  "bevel": 0.03,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 5,
+  "contrast": 11.8,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "ramped",
+   "noise"
+  ],
+  "grain": 0.99,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "stone_andesite": {
+  "anisotropy": 0.13,
+  "bevel": 0.33,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 213,
+  "contrast": 23.5,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "dithered",
+   "noise"
+  ],
+  "grain": 1.2,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "stone_andesite_smooth": {
+  "anisotropy": 0.08,
+  "bevel": 4.0,
+  "colPeriod": 0.04,
+  "colRank": 16,
+  "colours": 189,
+  "contrast": 20.4,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "bevelled",
+   "dithered"
+  ],
+  "grain": 0.6,
+  "host": null,
+  "rowPeriod": 0.08,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "stone_diorite": {
+  "anisotropy": 0.11,
+  "bevel": 0.07,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 85,
+  "contrast": 35.7,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 1.15,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "stone_diorite_smooth": {
+  "anisotropy": 0.01,
+  "bevel": 1.27,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 73,
+  "contrast": 36.3,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "bevelled"
+  ],
+  "grain": 0.84,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "stone_granite": {
+  "anisotropy": 0.14,
+  "bevel": 0.15,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 38,
+  "contrast": 35.4,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 1.18,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "stone_granite_smooth": {
+  "anisotropy": 0.05,
+  "bevel": 2.91,
+  "colPeriod": 0.0,
+  "colRank": 16,
+  "colours": 36,
+  "contrast": 24.5,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "bevelled"
+  ],
+  "grain": 0.8,
+  "host": null,
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "stone_slab_side": {
+  "anisotropy": 0.44,
+  "bevel": 1.9,
+  "colPeriod": 0.41,
+  "colRank": 16,
+  "colours": 12,
+  "contrast": 20.6,
+  "faces": [
+   "column"
+  ],
+  "flags": [
+   "inlaid",
+   "tiled",
+   "bevelled",
+   "ramped",
+   "grained-x"
+  ],
+  "grain": 0.62,
+  "host": "stone_slab_top",
+  "rowPeriod": 0.51,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 1
+ },
+ "stone_slab_top": {
+  "anisotropy": 0.18,
+  "bevel": -5.94,
+  "colPeriod": 0.28,
+  "colRank": 16,
+  "colours": 8,
+  "contrast": 15.9,
+  "faces": [
+   "column",
+   "uniform"
+  ],
+  "flags": [
+   "ramped",
+   "noise"
+  ],
+  "grain": 0.59,
+  "host": null,
+  "rowPeriod": 0.28,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "stonebrick": {
+  "anisotropy": 0.28,
+  "bevel": 1.47,
+  "colPeriod": 0.26,
+  "colRank": 16,
+  "colours": 42,
+  "contrast": 18.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "masonry",
+   "bevelled"
+  ],
+  "grain": 0.64,
+  "host": null,
+  "rowPeriod": 0.17,
+  "rowRank": 15,
+  "seamCols": 0,
+  "seamRows": 1
+ },
+ "stonebrick_carved": {
+  "anisotropy": 0.02,
+  "bevel": 1.0,
+  "colPeriod": 0.14,
+  "colRank": 16,
+  "colours": 39,
+  "contrast": 22.4,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "bevelled"
+  ],
+  "grain": 0.75,
+  "host": null,
+  "rowPeriod": 0.13,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "stonebrick_cracked": {
+  "anisotropy": 0.15,
+  "bevel": 1.17,
+  "colPeriod": 0.05,
+  "colRank": 16,
+  "colours": 55,
+  "contrast": 19.7,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "masonry",
+   "bevelled"
+  ],
+  "grain": 0.82,
+  "host": null,
+  "rowPeriod": 0.01,
+  "rowRank": 15,
+  "seamCols": 0,
+  "seamRows": 1
+ },
+ "stonebrick_mossy": {
+  "anisotropy": 0.12,
+  "bevel": 1.02,
+  "colPeriod": 0.04,
+  "colRank": 16,
+  "colours": 78,
+  "contrast": 17.6,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "inlaid",
+   "bevelled"
+  ],
+  "grain": 0.7,
+  "host": "stonebrick",
+  "rowPeriod": 0.0,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 1
+ },
+ "tnt_bottom": {
+  "anisotropy": 0.0,
+  "bevel": -0.0,
+  "colPeriod": 1.0,
+  "colRank": 3,
+  "colours": 4,
+  "contrast": 27.3,
+  "faces": [
+   "bottom-top"
+  ],
+  "flags": [
+   "tiled",
+   "masonry",
+   "panelled",
+   "ramped"
+  ],
+  "grain": 0.8,
+  "host": null,
+  "rowPeriod": 1.0,
+  "rowRank": 3,
+  "seamCols": 3,
+  "seamRows": 3
+ },
+ "tnt_side": {
+  "anisotropy": -0.03,
+  "bevel": 0.39,
+  "colPeriod": 0.44,
+  "colRank": 16,
+  "colours": 17,
+  "contrast": 62.7,
+  "faces": [
+   "bottom-top"
+  ],
+  "flags": [
+   "tiled",
+   "masonry",
+   "panelled"
+  ],
+  "grain": 0.61,
+  "host": null,
+  "rowPeriod": 0.02,
+  "rowRank": 10,
+  "seamCols": 0,
+  "seamRows": 4
+ },
+ "tnt_top": {
+  "anisotropy": -0.0,
+  "bevel": -0.15,
+  "colPeriod": 0.0,
+  "colRank": 15,
+  "colours": 6,
+  "contrast": 42.5,
+  "faces": [
+   "bottom-top"
+  ],
+  "flags": [
+   "inlaid",
+   "ramped"
+  ],
+  "grain": 0.81,
+  "host": "tnt_bottom",
+  "rowPeriod": 0.0,
+  "rowRank": 15,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "wool_colored_black": {
+  "anisotropy": 0.27,
+  "bevel": -0.02,
+  "colPeriod": 0.15,
+  "colRank": 11,
+  "colours": 18,
+  "contrast": 5.3,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 1.1,
+  "host": null,
+  "rowPeriod": 0.06,
+  "rowRank": 14,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "wool_colored_blue": {
+  "anisotropy": 0.27,
+  "bevel": -0.07,
+  "colPeriod": 0.16,
+  "colRank": 12,
+  "colours": 32,
+  "contrast": 5.5,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 1.1,
+  "host": null,
+  "rowPeriod": 0.08,
+  "rowRank": 15,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "wool_colored_brown": {
+  "anisotropy": 0.27,
+  "bevel": 0.01,
+  "colPeriod": 0.17,
+  "colRank": 11,
+  "colours": 21,
+  "contrast": 5.1,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 1.1,
+  "host": null,
+  "rowPeriod": 0.07,
+  "rowRank": 14,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "wool_colored_cyan": {
+  "anisotropy": 0.27,
+  "bevel": -0.06,
+  "colPeriod": 0.17,
+  "colRank": 15,
+  "colours": 29,
+  "contrast": 8.1,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 1.1,
+  "host": null,
+  "rowPeriod": 0.07,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "wool_colored_gray": {
+  "anisotropy": 0.27,
+  "bevel": -0.07,
+  "colPeriod": 0.16,
+  "colRank": 10,
+  "colours": 16,
+  "contrast": 5.7,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 1.09,
+  "host": null,
+  "rowPeriod": 0.07,
+  "rowRank": 15,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "wool_colored_green": {
+  "anisotropy": 0.27,
+  "bevel": -0.1,
+  "colPeriod": 0.18,
+  "colRank": 11,
+  "colours": 19,
+  "contrast": 5.4,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "panelled",
+   "flat"
+  ],
+  "grain": 1.1,
+  "host": null,
+  "rowPeriod": 0.09,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "wool_colored_light_blue": {
+  "anisotropy": 0.27,
+  "bevel": -0.05,
+  "colPeriod": 0.15,
+  "colRank": 16,
+  "colours": 38,
+  "contrast": 15.6,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 1.1,
+  "host": null,
+  "rowPeriod": 0.05,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "wool_colored_lime": {
+  "anisotropy": 0.27,
+  "bevel": -0.05,
+  "colPeriod": 0.18,
+  "colRank": 16,
+  "colours": 35,
+  "contrast": 11.0,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 1.1,
+  "host": null,
+  "rowPeriod": 0.08,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "wool_colored_magenta": {
+  "anisotropy": 0.27,
+  "bevel": -0.04,
+  "colPeriod": 0.17,
+  "colRank": 16,
+  "colours": 36,
+  "contrast": 12.2,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 1.1,
+  "host": null,
+  "rowPeriod": 0.07,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "wool_colored_orange": {
+  "anisotropy": 0.26,
+  "bevel": -0.03,
+  "colPeriod": 0.11,
+  "colRank": 16,
+  "colours": 22,
+  "contrast": 7.1,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "flat"
+  ],
+  "grain": 1.08,
+  "host": null,
+  "rowPeriod": 0.01,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "wool_colored_pink": {
+  "anisotropy": 0.27,
+  "bevel": -0.04,
+  "colPeriod": 0.15,
+  "colRank": 16,
+  "colours": 37,
+  "contrast": 15.6,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 1.1,
+  "host": null,
+  "rowPeriod": 0.06,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "wool_colored_purple": {
+  "anisotropy": 0.27,
+  "bevel": -0.03,
+  "colPeriod": 0.13,
+  "colRank": 15,
+  "colours": 36,
+  "contrast": 9.4,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 1.09,
+  "host": null,
+  "rowPeriod": 0.03,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "wool_colored_red": {
+  "anisotropy": 0.27,
+  "bevel": -0.08,
+  "colPeriod": 0.16,
+  "colRank": 14,
+  "colours": 33,
+  "contrast": 7.4,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "flat"
+  ],
+  "grain": 1.11,
+  "host": null,
+  "rowPeriod": 0.06,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "wool_colored_silver": {
+  "anisotropy": 0.27,
+  "bevel": -0.05,
+  "colPeriod": 0.16,
+  "colRank": 16,
+  "colours": 41,
+  "contrast": 13.4,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 1.1,
+  "host": null,
+  "rowPeriod": 0.06,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "wool_colored_white": {
+  "anisotropy": 0.27,
+  "bevel": -0.05,
+  "colPeriod": 0.15,
+  "colRank": 16,
+  "colours": 48,
+  "contrast": 18.7,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 1.1,
+  "host": null,
+  "rowPeriod": 0.06,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ },
+ "wool_colored_yellow": {
+  "anisotropy": 0.26,
+  "bevel": -0.05,
+  "colPeriod": 0.16,
+  "colRank": 16,
+  "colours": 33,
+  "contrast": 15.6,
+  "faces": [
+   "uniform"
+  ],
+  "flags": [
+   "noise"
+  ],
+  "grain": 1.1,
+  "host": null,
+  "rowPeriod": 0.06,
+  "rowRank": 16,
+  "seamCols": 0,
+  "seamRows": 0
+ }
+}

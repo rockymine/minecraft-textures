@@ -1,0 +1,1118 @@
+{
+"acacia_bark": {
+"up": "blocks/log_acacia",
+"down": "blocks/log_acacia",
+"side": "blocks/log_acacia",
+"layout": "uniform"
+},
+"acacia_log": {
+"up": "blocks/log_acacia_top",
+"down": "blocks/log_acacia_top",
+"side": "blocks/log_acacia",
+"layout": "column"
+},
+"acacia_planks": {
+"up": "blocks/planks_acacia",
+"down": "blocks/planks_acacia",
+"side": "blocks/planks_acacia",
+"layout": "uniform"
+},
+"andesite": {
+"up": "blocks/stone_andesite",
+"down": "blocks/stone_andesite",
+"side": "blocks/stone_andesite",
+"layout": "uniform"
+},
+"andesite_smooth": {
+"up": "blocks/stone_andesite_smooth",
+"down": "blocks/stone_andesite_smooth",
+"side": "blocks/stone_andesite_smooth",
+"layout": "uniform"
+},
+"bedrock": {
+"up": "blocks/bedrock",
+"down": "blocks/bedrock",
+"side": "blocks/bedrock",
+"layout": "uniform"
+},
+"bedrock_mirrored": {
+"up": "blocks/bedrock",
+"down": "blocks/bedrock",
+"side": "blocks/bedrock",
+"layout": "uniform"
+},
+"birch_bark": {
+"up": "blocks/log_birch",
+"down": "blocks/log_birch",
+"side": "blocks/log_birch",
+"layout": "uniform"
+},
+"birch_log": {
+"up": "blocks/log_birch_top",
+"down": "blocks/log_birch_top",
+"side": "blocks/log_birch",
+"layout": "column"
+},
+"birch_planks": {
+"up": "blocks/planks_birch",
+"down": "blocks/planks_birch",
+"side": "blocks/planks_birch",
+"layout": "uniform"
+},
+"black_wool": {
+"up": "blocks/wool_colored_black",
+"down": "blocks/wool_colored_black",
+"side": "blocks/wool_colored_black",
+"layout": "uniform"
+},
+"blue_wool": {
+"up": "blocks/wool_colored_blue",
+"down": "blocks/wool_colored_blue",
+"side": "blocks/wool_colored_blue",
+"layout": "uniform"
+},
+"bookshelf": {
+"up": "blocks/planks_oak",
+"down": "blocks/planks_oak",
+"side": "blocks/bookshelf",
+"layout": "column"
+},
+"brick": {
+"up": "blocks/brick",
+"down": "blocks/brick",
+"side": "blocks/brick",
+"layout": "uniform"
+},
+"brown_mushroom_block_c": {
+"up": "blocks/mushroom_block_skin_brown",
+"down": "blocks/mushroom_block_inside",
+"side": "blocks/mushroom_block_inside",
+"layout": "bottom-top"
+},
+"brown_mushroom_block_cap_all": {
+"up": "blocks/mushroom_block_skin_brown",
+"down": "blocks/mushroom_block_skin_brown",
+"side": "blocks/mushroom_block_skin_brown",
+"layout": "uniform"
+},
+"brown_mushroom_block_e": {
+"up": "blocks/mushroom_block_skin_brown",
+"down": "blocks/mushroom_block_inside",
+"side": "blocks/mushroom_block_inside",
+"layout": "faced"
+},
+"brown_mushroom_block_inside_all": {
+"up": "blocks/mushroom_block_inside",
+"down": "blocks/mushroom_block_inside",
+"side": "blocks/mushroom_block_inside",
+"layout": "uniform"
+},
+"brown_mushroom_block_n": {
+"up": "blocks/mushroom_block_skin_brown",
+"down": "blocks/mushroom_block_inside",
+"side": "blocks/mushroom_block_skin_brown",
+"layout": "faced"
+},
+"brown_mushroom_block_ne": {
+"up": "blocks/mushroom_block_skin_brown",
+"down": "blocks/mushroom_block_inside",
+"side": "blocks/mushroom_block_skin_brown",
+"layout": "faced"
+},
+"brown_mushroom_block_nw": {
+"up": "blocks/mushroom_block_skin_brown",
+"down": "blocks/mushroom_block_inside",
+"side": "blocks/mushroom_block_skin_brown",
+"layout": "faced"
+},
+"brown_mushroom_block_s": {
+"up": "blocks/mushroom_block_skin_brown",
+"down": "blocks/mushroom_block_inside",
+"side": "blocks/mushroom_block_inside",
+"layout": "faced"
+},
+"brown_mushroom_block_se": {
+"up": "blocks/mushroom_block_skin_brown",
+"down": "blocks/mushroom_block_inside",
+"side": "blocks/mushroom_block_inside",
+"layout": "faced"
+},
+"brown_mushroom_block_stem": {
+"up": "blocks/mushroom_block_inside",
+"down": "blocks/mushroom_block_inside",
+"side": "blocks/mushroom_block_skin_stem",
+"layout": "column"
+},
+"brown_mushroom_block_stem_all": {
+"up": "blocks/mushroom_block_skin_stem",
+"down": "blocks/mushroom_block_skin_stem",
+"side": "blocks/mushroom_block_skin_stem",
+"layout": "uniform"
+},
+"brown_mushroom_block_sw": {
+"up": "blocks/mushroom_block_skin_brown",
+"down": "blocks/mushroom_block_inside",
+"side": "blocks/mushroom_block_inside",
+"layout": "faced"
+},
+"brown_mushroom_block_w": {
+"up": "blocks/mushroom_block_skin_brown",
+"down": "blocks/mushroom_block_inside",
+"side": "blocks/mushroom_block_inside",
+"layout": "faced"
+},
+"brown_wool": {
+"up": "blocks/wool_colored_brown",
+"down": "blocks/wool_colored_brown",
+"side": "blocks/wool_colored_brown",
+"layout": "uniform"
+},
+"clay": {
+"up": "blocks/clay",
+"down": "blocks/clay",
+"side": "blocks/clay",
+"layout": "uniform"
+},
+"coal_block": {
+"up": "blocks/coal_block",
+"down": "blocks/coal_block",
+"side": "blocks/coal_block",
+"layout": "uniform"
+},
+"coal_ore": {
+"up": "blocks/coal_ore",
+"down": "blocks/coal_ore",
+"side": "blocks/coal_ore",
+"layout": "uniform"
+},
+"coarse_dirt": {
+"up": "blocks/coarse_dirt",
+"down": "blocks/coarse_dirt",
+"side": "blocks/coarse_dirt",
+"layout": "uniform"
+},
+"cobblestone": {
+"up": "blocks/cobblestone",
+"down": "blocks/cobblestone",
+"side": "blocks/cobblestone",
+"layout": "uniform"
+},
+"command_block": {
+"up": "blocks/command_block",
+"down": "blocks/command_block",
+"side": "blocks/command_block",
+"layout": "uniform"
+},
+"crafting_table": {
+"up": "blocks/crafting_table_top",
+"down": "blocks/planks_oak",
+"side": "blocks/crafting_table_front",
+"layout": "faced"
+},
+"cyan_wool": {
+"up": "blocks/wool_colored_cyan",
+"down": "blocks/wool_colored_cyan",
+"side": "blocks/wool_colored_cyan",
+"layout": "uniform"
+},
+"dark_oak_bark": {
+"up": "blocks/log_big_oak",
+"down": "blocks/log_big_oak",
+"side": "blocks/log_big_oak",
+"layout": "uniform"
+},
+"dark_oak_log": {
+"up": "blocks/log_big_oak_top",
+"down": "blocks/log_big_oak_top",
+"side": "blocks/log_big_oak",
+"layout": "column"
+},
+"dark_oak_planks": {
+"up": "blocks/planks_big_oak",
+"down": "blocks/planks_big_oak",
+"side": "blocks/planks_big_oak",
+"layout": "uniform"
+},
+"diamond_block": {
+"up": "blocks/diamond_block",
+"down": "blocks/diamond_block",
+"side": "blocks/diamond_block",
+"layout": "uniform"
+},
+"diamond_ore": {
+"up": "blocks/diamond_ore",
+"down": "blocks/diamond_ore",
+"side": "blocks/diamond_ore",
+"layout": "uniform"
+},
+"diorite": {
+"up": "blocks/stone_diorite",
+"down": "blocks/stone_diorite",
+"side": "blocks/stone_diorite",
+"layout": "uniform"
+},
+"diorite_smooth": {
+"up": "blocks/stone_diorite_smooth",
+"down": "blocks/stone_diorite_smooth",
+"side": "blocks/stone_diorite_smooth",
+"layout": "uniform"
+},
+"dirt": {
+"up": "blocks/dirt",
+"down": "blocks/dirt",
+"side": "blocks/dirt",
+"layout": "uniform"
+},
+"dispenser": {
+"up": "blocks/furnace_top",
+"down": "blocks/furnace_top",
+"side": "blocks/dispenser_front_horizontal",
+"layout": "faced"
+},
+"dispenser_vertical": {
+"up": "blocks/dispenser_front_vertical",
+"down": "blocks/furnace_top",
+"side": "blocks/furnace_top",
+"layout": "bottom-top"
+},
+"double_stone": {
+"up": "blocks/stone_slab_top",
+"down": "blocks/stone_slab_top",
+"side": "blocks/stone_slab_side",
+"layout": "column"
+},
+"double_stone_top": {
+"up": "blocks/stone_slab_top",
+"down": "blocks/stone_slab_top",
+"side": "blocks/stone_slab_top",
+"layout": "uniform"
+},
+"dropper": {
+"up": "blocks/furnace_top",
+"down": "blocks/furnace_top",
+"side": "blocks/dropper_front_horizontal",
+"layout": "faced"
+},
+"dropper_vertical": {
+"up": "blocks/dropper_front_vertical",
+"down": "blocks/furnace_top",
+"side": "blocks/furnace_top",
+"layout": "bottom-top"
+},
+"emerald_block": {
+"up": "blocks/emerald_block",
+"down": "blocks/emerald_block",
+"side": "blocks/emerald_block",
+"layout": "uniform"
+},
+"emerald_ore": {
+"up": "blocks/emerald_ore",
+"down": "blocks/emerald_ore",
+"side": "blocks/emerald_ore",
+"layout": "uniform"
+},
+"end_stone": {
+"up": "blocks/end_stone",
+"down": "blocks/end_stone",
+"side": "blocks/end_stone",
+"layout": "uniform"
+},
+"furnace": {
+"up": "blocks/furnace_top",
+"down": "blocks/furnace_top",
+"side": "blocks/furnace_front_off",
+"layout": "faced"
+},
+"glass": {
+"up": "blocks/glass",
+"down": "blocks/glass",
+"side": "blocks/glass",
+"layout": "uniform"
+},
+"glass_black": {
+"up": "blocks/glass_black",
+"down": "blocks/glass_black",
+"side": "blocks/glass_black",
+"layout": "uniform"
+},
+"glass_blue": {
+"up": "blocks/glass_blue",
+"down": "blocks/glass_blue",
+"side": "blocks/glass_blue",
+"layout": "uniform"
+},
+"glass_brown": {
+"up": "blocks/glass_brown",
+"down": "blocks/glass_brown",
+"side": "blocks/glass_brown",
+"layout": "uniform"
+},
+"glass_cyan": {
+"up": "blocks/glass_cyan",
+"down": "blocks/glass_cyan",
+"side": "blocks/glass_cyan",
+"layout": "uniform"
+},
+"glass_gray": {
+"up": "blocks/glass_gray",
+"down": "blocks/glass_gray",
+"side": "blocks/glass_gray",
+"layout": "uniform"
+},
+"glass_green": {
+"up": "blocks/glass_green",
+"down": "blocks/glass_green",
+"side": "blocks/glass_green",
+"layout": "uniform"
+},
+"glass_light_blue": {
+"up": "blocks/glass_light_blue",
+"down": "blocks/glass_light_blue",
+"side": "blocks/glass_light_blue",
+"layout": "uniform"
+},
+"glass_lime": {
+"up": "blocks/glass_lime",
+"down": "blocks/glass_lime",
+"side": "blocks/glass_lime",
+"layout": "uniform"
+},
+"glass_magenta": {
+"up": "blocks/glass_magenta",
+"down": "blocks/glass_magenta",
+"side": "blocks/glass_magenta",
+"layout": "uniform"
+},
+"glass_orange": {
+"up": "blocks/glass_orange",
+"down": "blocks/glass_orange",
+"side": "blocks/glass_orange",
+"layout": "uniform"
+},
+"glass_pink": {
+"up": "blocks/glass_pink",
+"down": "blocks/glass_pink",
+"side": "blocks/glass_pink",
+"layout": "uniform"
+},
+"glass_purple": {
+"up": "blocks/glass_purple",
+"down": "blocks/glass_purple",
+"side": "blocks/glass_purple",
+"layout": "uniform"
+},
+"glass_red": {
+"up": "blocks/glass_red",
+"down": "blocks/glass_red",
+"side": "blocks/glass_red",
+"layout": "uniform"
+},
+"glass_silver": {
+"up": "blocks/glass_silver",
+"down": "blocks/glass_silver",
+"side": "blocks/glass_silver",
+"layout": "uniform"
+},
+"glass_white": {
+"up": "blocks/glass_white",
+"down": "blocks/glass_white",
+"side": "blocks/glass_white",
+"layout": "uniform"
+},
+"glass_yellow": {
+"up": "blocks/glass_yellow",
+"down": "blocks/glass_yellow",
+"side": "blocks/glass_yellow",
+"layout": "uniform"
+},
+"glowstone": {
+"up": "blocks/glowstone",
+"down": "blocks/glowstone",
+"side": "blocks/glowstone",
+"layout": "uniform"
+},
+"gold_block": {
+"up": "blocks/gold_block",
+"down": "blocks/gold_block",
+"side": "blocks/gold_block",
+"layout": "uniform"
+},
+"gold_ore": {
+"up": "blocks/gold_ore",
+"down": "blocks/gold_ore",
+"side": "blocks/gold_ore",
+"layout": "uniform"
+},
+"granite": {
+"up": "blocks/stone_granite",
+"down": "blocks/stone_granite",
+"side": "blocks/stone_granite",
+"layout": "uniform"
+},
+"granite_smooth": {
+"up": "blocks/stone_granite_smooth",
+"down": "blocks/stone_granite_smooth",
+"side": "blocks/stone_granite_smooth",
+"layout": "uniform"
+},
+"grass_snowed": {
+"up": "blocks/grass_top",
+"down": "blocks/dirt",
+"side": "blocks/grass_side_snowed",
+"layout": "bottom-top"
+},
+"gravel": {
+"up": "blocks/gravel",
+"down": "blocks/gravel",
+"side": "blocks/gravel",
+"layout": "uniform"
+},
+"gray_wool": {
+"up": "blocks/wool_colored_gray",
+"down": "blocks/wool_colored_gray",
+"side": "blocks/wool_colored_gray",
+"layout": "uniform"
+},
+"green_wool": {
+"up": "blocks/wool_colored_green",
+"down": "blocks/wool_colored_green",
+"side": "blocks/wool_colored_green",
+"layout": "uniform"
+},
+"hardened_clay": {
+"up": "blocks/hardened_clay",
+"down": "blocks/hardened_clay",
+"side": "blocks/hardened_clay",
+"layout": "uniform"
+},
+"hardened_clay_black": {
+"up": "blocks/hardened_clay_stained_black",
+"down": "blocks/hardened_clay_stained_black",
+"side": "blocks/hardened_clay_stained_black",
+"layout": "uniform"
+},
+"hardened_clay_blue": {
+"up": "blocks/hardened_clay_stained_blue",
+"down": "blocks/hardened_clay_stained_blue",
+"side": "blocks/hardened_clay_stained_blue",
+"layout": "uniform"
+},
+"hardened_clay_brown": {
+"up": "blocks/hardened_clay_stained_brown",
+"down": "blocks/hardened_clay_stained_brown",
+"side": "blocks/hardened_clay_stained_brown",
+"layout": "uniform"
+},
+"hardened_clay_cyan": {
+"up": "blocks/hardened_clay_stained_cyan",
+"down": "blocks/hardened_clay_stained_cyan",
+"side": "blocks/hardened_clay_stained_cyan",
+"layout": "uniform"
+},
+"hardened_clay_gray": {
+"up": "blocks/hardened_clay_stained_gray",
+"down": "blocks/hardened_clay_stained_gray",
+"side": "blocks/hardened_clay_stained_gray",
+"layout": "uniform"
+},
+"hardened_clay_green": {
+"up": "blocks/hardened_clay_stained_green",
+"down": "blocks/hardened_clay_stained_green",
+"side": "blocks/hardened_clay_stained_green",
+"layout": "uniform"
+},
+"hardened_clay_light_blue": {
+"up": "blocks/hardened_clay_stained_light_blue",
+"down": "blocks/hardened_clay_stained_light_blue",
+"side": "blocks/hardened_clay_stained_light_blue",
+"layout": "uniform"
+},
+"hardened_clay_lime": {
+"up": "blocks/hardened_clay_stained_lime",
+"down": "blocks/hardened_clay_stained_lime",
+"side": "blocks/hardened_clay_stained_lime",
+"layout": "uniform"
+},
+"hardened_clay_magenta": {
+"up": "blocks/hardened_clay_stained_magenta",
+"down": "blocks/hardened_clay_stained_magenta",
+"side": "blocks/hardened_clay_stained_magenta",
+"layout": "uniform"
+},
+"hardened_clay_orange": {
+"up": "blocks/hardened_clay_stained_orange",
+"down": "blocks/hardened_clay_stained_orange",
+"side": "blocks/hardened_clay_stained_orange",
+"layout": "uniform"
+},
+"hardened_clay_pink": {
+"up": "blocks/hardened_clay_stained_pink",
+"down": "blocks/hardened_clay_stained_pink",
+"side": "blocks/hardened_clay_stained_pink",
+"layout": "uniform"
+},
+"hardened_clay_purple": {
+"up": "blocks/hardened_clay_stained_purple",
+"down": "blocks/hardened_clay_stained_purple",
+"side": "blocks/hardened_clay_stained_purple",
+"layout": "uniform"
+},
+"hardened_clay_red": {
+"up": "blocks/hardened_clay_stained_red",
+"down": "blocks/hardened_clay_stained_red",
+"side": "blocks/hardened_clay_stained_red",
+"layout": "uniform"
+},
+"hardened_clay_silver": {
+"up": "blocks/hardened_clay_stained_silver",
+"down": "blocks/hardened_clay_stained_silver",
+"side": "blocks/hardened_clay_stained_silver",
+"layout": "uniform"
+},
+"hardened_clay_white": {
+"up": "blocks/hardened_clay_stained_white",
+"down": "blocks/hardened_clay_stained_white",
+"side": "blocks/hardened_clay_stained_white",
+"layout": "uniform"
+},
+"hardened_clay_yellow": {
+"up": "blocks/hardened_clay_stained_yellow",
+"down": "blocks/hardened_clay_stained_yellow",
+"side": "blocks/hardened_clay_stained_yellow",
+"layout": "uniform"
+},
+"hay": {
+"up": "blocks/hay_block_top",
+"down": "blocks/hay_block_top",
+"side": "blocks/hay_block_side",
+"layout": "column"
+},
+"ice": {
+"up": "blocks/ice",
+"down": "blocks/ice",
+"side": "blocks/ice",
+"layout": "uniform"
+},
+"iron_block": {
+"up": "blocks/iron_block",
+"down": "blocks/iron_block",
+"side": "blocks/iron_block",
+"layout": "uniform"
+},
+"iron_ore": {
+"up": "blocks/iron_ore",
+"down": "blocks/iron_ore",
+"side": "blocks/iron_ore",
+"layout": "uniform"
+},
+"jukebox": {
+"up": "blocks/jukebox_top",
+"down": "blocks/jukebox_side",
+"side": "blocks/jukebox_side",
+"layout": "bottom-top"
+},
+"jungle_bark": {
+"up": "blocks/log_jungle",
+"down": "blocks/log_jungle",
+"side": "blocks/log_jungle",
+"layout": "uniform"
+},
+"jungle_log": {
+"up": "blocks/log_jungle_top",
+"down": "blocks/log_jungle_top",
+"side": "blocks/log_jungle",
+"layout": "column"
+},
+"jungle_planks": {
+"up": "blocks/planks_jungle",
+"down": "blocks/planks_jungle",
+"side": "blocks/planks_jungle",
+"layout": "uniform"
+},
+"lapis_block": {
+"up": "blocks/lapis_block",
+"down": "blocks/lapis_block",
+"side": "blocks/lapis_block",
+"layout": "uniform"
+},
+"lapis_ore": {
+"up": "blocks/lapis_ore",
+"down": "blocks/lapis_ore",
+"side": "blocks/lapis_ore",
+"layout": "uniform"
+},
+"light_blue_wool": {
+"up": "blocks/wool_colored_light_blue",
+"down": "blocks/wool_colored_light_blue",
+"side": "blocks/wool_colored_light_blue",
+"layout": "uniform"
+},
+"lime_wool": {
+"up": "blocks/wool_colored_lime",
+"down": "blocks/wool_colored_lime",
+"side": "blocks/wool_colored_lime",
+"layout": "uniform"
+},
+"lit_furnace": {
+"up": "blocks/furnace_top",
+"down": "blocks/furnace_top",
+"side": "blocks/furnace_front_on",
+"layout": "faced"
+},
+"lit_pumpkin": {
+"up": "blocks/pumpkin_top",
+"down": "blocks/pumpkin_top",
+"side": "blocks/pumpkin_face_on",
+"layout": "faced"
+},
+"lit_redstone_lamp": {
+"up": "blocks/redstone_lamp_on",
+"down": "blocks/redstone_lamp_on",
+"side": "blocks/redstone_lamp_on",
+"layout": "uniform"
+},
+"lit_redstone_ore": {
+"up": "blocks/redstone_ore",
+"down": "blocks/redstone_ore",
+"side": "blocks/redstone_ore",
+"layout": "uniform"
+},
+"magenta_wool": {
+"up": "blocks/wool_colored_magenta",
+"down": "blocks/wool_colored_magenta",
+"side": "blocks/wool_colored_magenta",
+"layout": "uniform"
+},
+"melon": {
+"up": "blocks/melon_top",
+"down": "blocks/melon_top",
+"side": "blocks/melon_side",
+"layout": "column"
+},
+"mob_spawner_cage": {
+"up": "blocks/mob_spawner",
+"down": "blocks/mob_spawner",
+"side": "blocks/mob_spawner",
+"layout": "uniform"
+},
+"mossy_cobblestone": {
+"up": "blocks/cobblestone_mossy",
+"down": "blocks/cobblestone_mossy",
+"side": "blocks/cobblestone_mossy",
+"layout": "uniform"
+},
+"mycelium": {
+"up": "blocks/mycelium_top",
+"down": "blocks/dirt",
+"side": "blocks/mycelium_side",
+"layout": "bottom-top"
+},
+"nether_brick": {
+"up": "blocks/nether_brick",
+"down": "blocks/nether_brick",
+"side": "blocks/nether_brick",
+"layout": "uniform"
+},
+"netherrack": {
+"up": "blocks/netherrack",
+"down": "blocks/netherrack",
+"side": "blocks/netherrack",
+"layout": "uniform"
+},
+"noteblock": {
+"up": "blocks/noteblock",
+"down": "blocks/noteblock",
+"side": "blocks/noteblock",
+"layout": "uniform"
+},
+"oak_bark": {
+"up": "blocks/log_oak",
+"down": "blocks/log_oak",
+"side": "blocks/log_oak",
+"layout": "uniform"
+},
+"oak_log": {
+"up": "blocks/log_oak_top",
+"down": "blocks/log_oak_top",
+"side": "blocks/log_oak",
+"layout": "column"
+},
+"oak_planks": {
+"up": "blocks/planks_oak",
+"down": "blocks/planks_oak",
+"side": "blocks/planks_oak",
+"layout": "uniform"
+},
+"obsidian": {
+"up": "blocks/obsidian",
+"down": "blocks/obsidian",
+"side": "blocks/obsidian",
+"layout": "uniform"
+},
+"orange_wool": {
+"up": "blocks/wool_colored_orange",
+"down": "blocks/wool_colored_orange",
+"side": "blocks/wool_colored_orange",
+"layout": "uniform"
+},
+"packed_ice": {
+"up": "blocks/ice_packed",
+"down": "blocks/ice_packed",
+"side": "blocks/ice_packed",
+"layout": "uniform"
+},
+"pink_wool": {
+"up": "blocks/wool_colored_pink",
+"down": "blocks/wool_colored_pink",
+"side": "blocks/wool_colored_pink",
+"layout": "uniform"
+},
+"piston_inventory_normal": {
+"up": "blocks/piston_top_normal",
+"down": "blocks/piston_bottom",
+"side": "blocks/piston_side",
+"layout": "bottom-top"
+},
+"piston_inventory_sticky": {
+"up": "blocks/piston_top_sticky",
+"down": "blocks/piston_bottom",
+"side": "blocks/piston_side",
+"layout": "bottom-top"
+},
+"podzol": {
+"up": "blocks/dirt_podzol_top",
+"down": "blocks/dirt",
+"side": "blocks/dirt_podzol_side",
+"layout": "bottom-top"
+},
+"prismarine_bricks": {
+"up": "blocks/prismarine_bricks",
+"down": "blocks/prismarine_bricks",
+"side": "blocks/prismarine_bricks",
+"layout": "uniform"
+},
+"prismarine_dark": {
+"up": "blocks/prismarine_dark",
+"down": "blocks/prismarine_dark",
+"side": "blocks/prismarine_dark",
+"layout": "uniform"
+},
+"prismarine_rough": {
+"up": "blocks/prismarine_rough",
+"down": "blocks/prismarine_rough",
+"side": "blocks/prismarine_rough",
+"layout": "uniform"
+},
+"pumpkin": {
+"up": "blocks/pumpkin_top",
+"down": "blocks/pumpkin_top",
+"side": "blocks/pumpkin_face_off",
+"layout": "faced"
+},
+"purple_wool": {
+"up": "blocks/wool_colored_purple",
+"down": "blocks/wool_colored_purple",
+"side": "blocks/wool_colored_purple",
+"layout": "uniform"
+},
+"quartz_chiseled": {
+"up": "blocks/quartz_block_chiseled_top",
+"down": "blocks/quartz_block_chiseled_top",
+"side": "blocks/quartz_block_chiseled",
+"layout": "column"
+},
+"quartz_lines": {
+"up": "blocks/quartz_block_lines_top",
+"down": "blocks/quartz_block_lines_top",
+"side": "blocks/quartz_block_lines",
+"layout": "column"
+},
+"quartz_normal": {
+"up": "blocks/quartz_block_top",
+"down": "blocks/quartz_block_bottom",
+"side": "blocks/quartz_block_side",
+"layout": "bottom-top"
+},
+"quartz_ore": {
+"up": "blocks/quartz_ore",
+"down": "blocks/quartz_ore",
+"side": "blocks/quartz_ore",
+"layout": "uniform"
+},
+"quartz_top": {
+"up": "blocks/quartz_block_top",
+"down": "blocks/quartz_block_top",
+"side": "blocks/quartz_block_top",
+"layout": "uniform"
+},
+"red_mushroom_block_c": {
+"up": "blocks/mushroom_block_skin_red",
+"down": "blocks/mushroom_block_inside",
+"side": "blocks/mushroom_block_inside",
+"layout": "bottom-top"
+},
+"red_mushroom_block_cap_all": {
+"up": "blocks/mushroom_block_skin_red",
+"down": "blocks/mushroom_block_skin_red",
+"side": "blocks/mushroom_block_skin_red",
+"layout": "uniform"
+},
+"red_mushroom_block_e": {
+"up": "blocks/mushroom_block_skin_red",
+"down": "blocks/mushroom_block_inside",
+"side": "blocks/mushroom_block_inside",
+"layout": "faced"
+},
+"red_mushroom_block_inside_all": {
+"up": "blocks/mushroom_block_inside",
+"down": "blocks/mushroom_block_inside",
+"side": "blocks/mushroom_block_inside",
+"layout": "uniform"
+},
+"red_mushroom_block_n": {
+"up": "blocks/mushroom_block_skin_red",
+"down": "blocks/mushroom_block_inside",
+"side": "blocks/mushroom_block_skin_red",
+"layout": "faced"
+},
+"red_mushroom_block_ne": {
+"up": "blocks/mushroom_block_skin_red",
+"down": "blocks/mushroom_block_inside",
+"side": "blocks/mushroom_block_skin_red",
+"layout": "faced"
+},
+"red_mushroom_block_nw": {
+"up": "blocks/mushroom_block_skin_red",
+"down": "blocks/mushroom_block_inside",
+"side": "blocks/mushroom_block_skin_red",
+"layout": "faced"
+},
+"red_mushroom_block_s": {
+"up": "blocks/mushroom_block_skin_red",
+"down": "blocks/mushroom_block_inside",
+"side": "blocks/mushroom_block_inside",
+"layout": "faced"
+},
+"red_mushroom_block_se": {
+"up": "blocks/mushroom_block_skin_red",
+"down": "blocks/mushroom_block_inside",
+"side": "blocks/mushroom_block_inside",
+"layout": "faced"
+},
+"red_mushroom_block_stem": {
+"up": "blocks/mushroom_block_inside",
+"down": "blocks/mushroom_block_inside",
+"side": "blocks/mushroom_block_skin_stem",
+"layout": "column"
+},
+"red_mushroom_block_stem_all": {
+"up": "blocks/mushroom_block_skin_stem",
+"down": "blocks/mushroom_block_skin_stem",
+"side": "blocks/mushroom_block_skin_stem",
+"layout": "uniform"
+},
+"red_mushroom_block_sw": {
+"up": "blocks/mushroom_block_skin_red",
+"down": "blocks/mushroom_block_inside",
+"side": "blocks/mushroom_block_inside",
+"layout": "faced"
+},
+"red_mushroom_block_w": {
+"up": "blocks/mushroom_block_skin_red",
+"down": "blocks/mushroom_block_inside",
+"side": "blocks/mushroom_block_inside",
+"layout": "faced"
+},
+"red_sand": {
+"up": "blocks/red_sand",
+"down": "blocks/red_sand",
+"side": "blocks/red_sand",
+"layout": "uniform"
+},
+"red_sandstone_all": {
+"up": "blocks/red_sandstone_top",
+"down": "blocks/red_sandstone_top",
+"side": "blocks/red_sandstone_top",
+"layout": "uniform"
+},
+"red_sandstone_chiseled": {
+"up": "blocks/red_sandstone_top",
+"down": "blocks/red_sandstone_top",
+"side": "blocks/red_sandstone_carved",
+"layout": "column"
+},
+"red_sandstone_normal": {
+"up": "blocks/red_sandstone_top",
+"down": "blocks/red_sandstone_bottom",
+"side": "blocks/red_sandstone_normal",
+"layout": "bottom-top"
+},
+"red_sandstone_smooth": {
+"up": "blocks/red_sandstone_top",
+"down": "blocks/red_sandstone_top",
+"side": "blocks/red_sandstone_smooth",
+"layout": "column"
+},
+"red_wool": {
+"up": "blocks/wool_colored_red",
+"down": "blocks/wool_colored_red",
+"side": "blocks/wool_colored_red",
+"layout": "uniform"
+},
+"redstone_block": {
+"up": "blocks/redstone_block",
+"down": "blocks/redstone_block",
+"side": "blocks/redstone_block",
+"layout": "uniform"
+},
+"redstone_ore": {
+"up": "blocks/redstone_ore",
+"down": "blocks/redstone_ore",
+"side": "blocks/redstone_ore",
+"layout": "uniform"
+},
+"sand": {
+"up": "blocks/sand",
+"down": "blocks/sand",
+"side": "blocks/sand",
+"layout": "uniform"
+},
+"sandstone_all": {
+"up": "blocks/sandstone_top",
+"down": "blocks/sandstone_top",
+"side": "blocks/sandstone_top",
+"layout": "uniform"
+},
+"sandstone_chiseled": {
+"up": "blocks/sandstone_top",
+"down": "blocks/sandstone_top",
+"side": "blocks/sandstone_carved",
+"layout": "column"
+},
+"sandstone_normal": {
+"up": "blocks/sandstone_top",
+"down": "blocks/sandstone_bottom",
+"side": "blocks/sandstone_normal",
+"layout": "bottom-top"
+},
+"sandstone_smooth": {
+"up": "blocks/sandstone_top",
+"down": "blocks/sandstone_top",
+"side": "blocks/sandstone_smooth",
+"layout": "column"
+},
+"sea_lantern": {
+"up": "blocks/sea_lantern",
+"down": "blocks/sea_lantern",
+"side": "blocks/sea_lantern",
+"layout": "uniform"
+},
+"silver_wool": {
+"up": "blocks/wool_colored_silver",
+"down": "blocks/wool_colored_silver",
+"side": "blocks/wool_colored_silver",
+"layout": "uniform"
+},
+"snow": {
+"up": "blocks/snow",
+"down": "blocks/snow",
+"side": "blocks/snow",
+"layout": "uniform"
+},
+"soul_sand": {
+"up": "blocks/soul_sand",
+"down": "blocks/soul_sand",
+"side": "blocks/soul_sand",
+"layout": "uniform"
+},
+"sponge": {
+"up": "blocks/sponge",
+"down": "blocks/sponge",
+"side": "blocks/sponge",
+"layout": "uniform"
+},
+"sponge_wet": {
+"up": "blocks/sponge_wet",
+"down": "blocks/sponge_wet",
+"side": "blocks/sponge_wet",
+"layout": "uniform"
+},
+"spruce_bark": {
+"up": "blocks/log_spruce",
+"down": "blocks/log_spruce",
+"side": "blocks/log_spruce",
+"layout": "uniform"
+},
+"spruce_log": {
+"up": "blocks/log_spruce_top",
+"down": "blocks/log_spruce_top",
+"side": "blocks/log_spruce",
+"layout": "column"
+},
+"spruce_planks": {
+"up": "blocks/planks_spruce",
+"down": "blocks/planks_spruce",
+"side": "blocks/planks_spruce",
+"layout": "uniform"
+},
+"stone": {
+"up": "blocks/stone",
+"down": "blocks/stone",
+"side": "blocks/stone",
+"layout": "uniform"
+},
+"stone_mirrored": {
+"up": "blocks/stone",
+"down": "blocks/stone",
+"side": "blocks/stone",
+"layout": "uniform"
+},
+"stonebrick_chiseled": {
+"up": "blocks/stonebrick_carved",
+"down": "blocks/stonebrick_carved",
+"side": "blocks/stonebrick_carved",
+"layout": "uniform"
+},
+"stonebrick_cracked": {
+"up": "blocks/stonebrick_cracked",
+"down": "blocks/stonebrick_cracked",
+"side": "blocks/stonebrick_cracked",
+"layout": "uniform"
+},
+"stonebrick_mossy": {
+"up": "blocks/stonebrick_mossy",
+"down": "blocks/stonebrick_mossy",
+"side": "blocks/stonebrick_mossy",
+"layout": "uniform"
+},
+"stonebrick_normal": {
+"up": "blocks/stonebrick",
+"down": "blocks/stonebrick",
+"side": "blocks/stonebrick",
+"layout": "uniform"
+},
+"tnt": {
+"up": "blocks/tnt_top",
+"down": "blocks/tnt_bottom",
+"side": "blocks/tnt_side",
+"layout": "bottom-top"
+},
+"unlit_redstone_lamp": {
+"up": "blocks/redstone_lamp_off",
+"down": "blocks/redstone_lamp_off",
+"side": "blocks/redstone_lamp_off",
+"layout": "uniform"
+},
+"white_wool": {
+"up": "blocks/wool_colored_white",
+"down": "blocks/wool_colored_white",
+"side": "blocks/wool_colored_white",
+"layout": "uniform"
+},
+"yellow_wool": {
+"up": "blocks/wool_colored_yellow",
+"down": "blocks/wool_colored_yellow",
+"side": "blocks/wool_colored_yellow",
+"layout": "uniform"
+}
+}

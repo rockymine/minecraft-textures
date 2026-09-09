@@ -1,0 +1,101 @@
+{
+ "setup": {
+  "mirror_mode": "none",
+  "center": {
+   "cx": 0,
+   "cz": 0
+  },
+  "bbox": {
+   "min_x": -60,
+   "max_x": 60,
+   "min_z": -60,
+   "max_z": 60
+  }
+ },
+ "layers": [
+  {
+   "id": "ground",
+   "name": "Ground",
+   "base_y": 0,
+   "layout": {
+    "shapes": [
+     {
+      "id": "west-flat",
+      "type": "rectangle",
+      "operation": "add",
+      "override": false,
+      "min_x": -60,
+      "min_z": -60,
+      "max_x": -15,
+      "max_z": 60,
+      "floor": 0,
+      "base_height": 12
+     },
+     {
+      "id": "north-flat",
+      "type": "rectangle",
+      "operation": "add",
+      "override": false,
+      "min_x": -15,
+      "min_z": -60,
+      "max_x": 60,
+      "max_z": -25,
+      "floor": 0,
+      "base_height": 12
+     },
+     {
+      "id": "centre-rise",
+      "type": "rectangle",
+      "operation": "add",
+      "override": false,
+      "min_x": -15,
+      "min_z": -25,
+      "max_x": 20,
+      "max_z": 25,
+      "floor": 0,
+      "base_height": 20
+     },
+     {
+      "id": "east-shelf",
+      "type": "rectangle",
+      "operation": "add",
+      "override": false,
+      "min_x": 20,
+      "min_z": -25,
+      "max_x": 60,
+      "max_z": 25,
+      "floor": 0,
+      "base_height": 15
+     },
+     {
+      "id": "south-low",
+      "type": "rectangle",
+      "operation": "add",
+      "override": false,
+      "min_x": -15,
+      "min_z": 25,
+      "max_x": 60,
+      "max_z": 60,
+      "floor": 0,
+      "base_height": 8
+     }
+    ],
+    "groups": [
+     {
+      "id": "board",
+      "name": "The board",
+      "mirrors": false,
+      "shapeIds": [
+       "west-flat",
+       "north-flat",
+       "centre-rise",
+       "east-shelf",
+       "south-low"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "themes": {}
+}

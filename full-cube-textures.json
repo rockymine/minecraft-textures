@@ -1,0 +1,572 @@
+{
+"log_acacia": [
+"column",
+"uniform"
+],
+"log_acacia_top": [
+"column"
+],
+"planks_acacia": [
+"uniform"
+],
+"stone_andesite": [
+"uniform"
+],
+"stone_andesite_smooth": [
+"uniform"
+],
+"bedrock": [
+"uniform"
+],
+"log_birch": [
+"column",
+"uniform"
+],
+"log_birch_top": [
+"column"
+],
+"planks_birch": [
+"uniform"
+],
+"wool_colored_black": [
+"uniform"
+],
+"wool_colored_blue": [
+"uniform"
+],
+"planks_oak": [
+"column",
+"faced",
+"uniform"
+],
+"bookshelf": [
+"column"
+],
+"brick": [
+"uniform"
+],
+"mushroom_block_inside": [
+"bottom-top",
+"column",
+"faced",
+"uniform"
+],
+"mushroom_block_skin_brown": [
+"bottom-top",
+"faced",
+"uniform"
+],
+"mushroom_block_skin_stem": [
+"column",
+"uniform"
+],
+"wool_colored_brown": [
+"uniform"
+],
+"clay": [
+"uniform"
+],
+"coal_block": [
+"uniform"
+],
+"coal_ore": [
+"uniform"
+],
+"coarse_dirt": [
+"uniform"
+],
+"cobblestone": [
+"uniform"
+],
+"command_block": [
+"uniform"
+],
+"crafting_table_top": [
+"faced"
+],
+"crafting_table_front": [
+"faced"
+],
+"crafting_table_side": [
+"faced"
+],
+"wool_colored_cyan": [
+"uniform"
+],
+"log_big_oak": [
+"column",
+"uniform"
+],
+"log_big_oak_top": [
+"column"
+],
+"planks_big_oak": [
+"uniform"
+],
+"diamond_block": [
+"uniform"
+],
+"diamond_ore": [
+"uniform"
+],
+"stone_diorite": [
+"uniform"
+],
+"stone_diorite_smooth": [
+"uniform"
+],
+"dirt": [
+"bottom-top",
+"uniform"
+],
+"furnace_top": [
+"bottom-top",
+"faced"
+],
+"dispenser_front_horizontal": [
+"faced"
+],
+"furnace_side": [
+"faced"
+],
+"dispenser_front_vertical": [
+"bottom-top"
+],
+"stone_slab_top": [
+"column",
+"uniform"
+],
+"stone_slab_side": [
+"column"
+],
+"dropper_front_horizontal": [
+"faced"
+],
+"dropper_front_vertical": [
+"bottom-top"
+],
+"emerald_block": [
+"uniform"
+],
+"emerald_ore": [
+"uniform"
+],
+"end_stone": [
+"uniform"
+],
+"furnace_front_off": [
+"faced"
+],
+"glass": [
+"uniform"
+],
+"glass_black": [
+"uniform"
+],
+"glass_blue": [
+"uniform"
+],
+"glass_brown": [
+"uniform"
+],
+"glass_cyan": [
+"uniform"
+],
+"glass_gray": [
+"uniform"
+],
+"glass_green": [
+"uniform"
+],
+"glass_light_blue": [
+"uniform"
+],
+"glass_lime": [
+"uniform"
+],
+"glass_magenta": [
+"uniform"
+],
+"glass_orange": [
+"uniform"
+],
+"glass_pink": [
+"uniform"
+],
+"glass_purple": [
+"uniform"
+],
+"glass_red": [
+"uniform"
+],
+"glass_silver": [
+"uniform"
+],
+"glass_white": [
+"uniform"
+],
+"glass_yellow": [
+"uniform"
+],
+"glowstone": [
+"uniform"
+],
+"gold_block": [
+"uniform"
+],
+"gold_ore": [
+"uniform"
+],
+"stone_granite": [
+"uniform"
+],
+"stone_granite_smooth": [
+"uniform"
+],
+"grass_top": [
+"bottom-top"
+],
+"grass_side_snowed": [
+"bottom-top"
+],
+"gravel": [
+"uniform"
+],
+"wool_colored_gray": [
+"uniform"
+],
+"wool_colored_green": [
+"uniform"
+],
+"hardened_clay": [
+"uniform"
+],
+"hardened_clay_stained_black": [
+"uniform"
+],
+"hardened_clay_stained_blue": [
+"uniform"
+],
+"hardened_clay_stained_brown": [
+"uniform"
+],
+"hardened_clay_stained_cyan": [
+"uniform"
+],
+"hardened_clay_stained_gray": [
+"uniform"
+],
+"hardened_clay_stained_green": [
+"uniform"
+],
+"hardened_clay_stained_light_blue": [
+"uniform"
+],
+"hardened_clay_stained_lime": [
+"uniform"
+],
+"hardened_clay_stained_magenta": [
+"uniform"
+],
+"hardened_clay_stained_orange": [
+"uniform"
+],
+"hardened_clay_stained_pink": [
+"uniform"
+],
+"hardened_clay_stained_purple": [
+"uniform"
+],
+"hardened_clay_stained_red": [
+"uniform"
+],
+"hardened_clay_stained_silver": [
+"uniform"
+],
+"hardened_clay_stained_white": [
+"uniform"
+],
+"hardened_clay_stained_yellow": [
+"uniform"
+],
+"hay_block_top": [
+"column"
+],
+"hay_block_side": [
+"column"
+],
+"ice": [
+"uniform"
+],
+"iron_block": [
+"uniform"
+],
+"iron_ore": [
+"uniform"
+],
+"jukebox_side": [
+"bottom-top"
+],
+"jukebox_top": [
+"bottom-top"
+],
+"log_jungle": [
+"column",
+"uniform"
+],
+"log_jungle_top": [
+"column"
+],
+"planks_jungle": [
+"uniform"
+],
+"lapis_block": [
+"uniform"
+],
+"lapis_ore": [
+"uniform"
+],
+"wool_colored_light_blue": [
+"uniform"
+],
+"wool_colored_lime": [
+"uniform"
+],
+"furnace_front_on": [
+"faced"
+],
+"pumpkin_top": [
+"faced"
+],
+"pumpkin_face_on": [
+"faced"
+],
+"pumpkin_side": [
+"faced"
+],
+"redstone_lamp_on": [
+"uniform"
+],
+"redstone_ore": [
+"uniform"
+],
+"wool_colored_magenta": [
+"uniform"
+],
+"melon_top": [
+"column"
+],
+"melon_side": [
+"column"
+],
+"mob_spawner": [
+"uniform"
+],
+"cobblestone_mossy": [
+"uniform"
+],
+"mycelium_top": [
+"bottom-top"
+],
+"mycelium_side": [
+"bottom-top"
+],
+"nether_brick": [
+"uniform"
+],
+"netherrack": [
+"uniform"
+],
+"noteblock": [
+"uniform"
+],
+"log_oak": [
+"column",
+"uniform"
+],
+"log_oak_top": [
+"column"
+],
+"obsidian": [
+"uniform"
+],
+"wool_colored_orange": [
+"uniform"
+],
+"ice_packed": [
+"uniform"
+],
+"wool_colored_pink": [
+"uniform"
+],
+"piston_bottom": [
+"bottom-top"
+],
+"piston_top_normal": [
+"bottom-top"
+],
+"piston_side": [
+"bottom-top"
+],
+"piston_top_sticky": [
+"bottom-top"
+],
+"dirt_podzol_top": [
+"bottom-top"
+],
+"dirt_podzol_side": [
+"bottom-top"
+],
+"prismarine_bricks": [
+"uniform"
+],
+"prismarine_dark": [
+"uniform"
+],
+"prismarine_rough": [
+"uniform"
+],
+"pumpkin_face_off": [
+"faced"
+],
+"wool_colored_purple": [
+"uniform"
+],
+"quartz_block_chiseled_top": [
+"column"
+],
+"quartz_block_chiseled": [
+"column"
+],
+"quartz_block_lines_top": [
+"column"
+],
+"quartz_block_lines": [
+"column"
+],
+"quartz_block_bottom": [
+"bottom-top"
+],
+"quartz_block_top": [
+"bottom-top",
+"uniform"
+],
+"quartz_block_side": [
+"bottom-top"
+],
+"quartz_ore": [
+"uniform"
+],
+"mushroom_block_skin_red": [
+"bottom-top",
+"faced",
+"uniform"
+],
+"red_sand": [
+"uniform"
+],
+"red_sandstone_top": [
+"bottom-top",
+"column",
+"uniform"
+],
+"red_sandstone_carved": [
+"column"
+],
+"red_sandstone_bottom": [
+"bottom-top"
+],
+"red_sandstone_normal": [
+"bottom-top"
+],
+"red_sandstone_smooth": [
+"column"
+],
+"wool_colored_red": [
+"uniform"
+],
+"redstone_block": [
+"uniform"
+],
+"sand": [
+"uniform"
+],
+"sandstone_top": [
+"bottom-top",
+"column",
+"uniform"
+],
+"sandstone_carved": [
+"column"
+],
+"sandstone_bottom": [
+"bottom-top"
+],
+"sandstone_normal": [
+"bottom-top"
+],
+"sandstone_smooth": [
+"column"
+],
+"sea_lantern": [
+"uniform"
+],
+"wool_colored_silver": [
+"uniform"
+],
+"snow": [
+"uniform"
+],
+"soul_sand": [
+"uniform"
+],
+"sponge": [
+"uniform"
+],
+"sponge_wet": [
+"uniform"
+],
+"log_spruce": [
+"column",
+"uniform"
+],
+"log_spruce_top": [
+"column"
+],
+"planks_spruce": [
+"uniform"
+],
+"stone": [
+"uniform"
+],
+"stonebrick_carved": [
+"uniform"
+],
+"stonebrick_cracked": [
+"uniform"
+],
+"stonebrick_mossy": [
+"uniform"
+],
+"stonebrick": [
+"uniform"
+],
+"tnt_bottom": [
+"bottom-top"
+],
+"tnt_top": [
+"bottom-top"
+],
+"tnt_side": [
+"bottom-top"
+],
+"redstone_lamp_off": [
+"uniform"
+],
+"wool_colored_white": [
+"uniform"
+],
+"wool_colored_yellow": [
+"uniform"
+]
+}
