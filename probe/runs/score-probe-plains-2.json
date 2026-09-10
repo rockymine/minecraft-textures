@@ -1,0 +1,1685 @@
+{
+ "slug": "probe-plains-2",
+ "arm": "treatment",
+ "place": "plains",
+ "themes": 5,
+ "mapTheme": "plains",
+ "shapes": 80,
+ "shapesWithMaterial": 39,
+ "shapesWithTheme": 17,
+ "dressing": true,
+ "roomStyles": [
+  "spawn",
+  "wool"
+ ],
+ "terrain_raw": {
+  "pairs": 78,
+  "unknown": 0,
+  "findings": {
+   "repeat": 18,
+   "mush": 7,
+   "clash": 1
+  },
+  "rows": [
+   {
+    "src": "theme:hollow",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Gravel",
+    "b": "Gravel",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:hollow",
+    "bucket": "wall",
+    "pattern": "voronoi",
+    "kind": "mush",
+    "a": "Mossy Cobblestone",
+    "b": "Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "theme:causeway",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gravel",
+    "b": "Cobblestone",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:causeway",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Gravel",
+    "b": "Gravel",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:causeway",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Gravel",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:causeway",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "theme:causeway",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Mossy Cobblestone",
+    "b": "Stone",
+    "ratio": 3.03,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:plinth",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cracked Stone Bricks",
+    "b": "Mossy Stone Bricks",
+    "ratio": 1.12,
+    "rgbd": 12.5
+   },
+   {
+    "src": "theme:bed",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Coarse Dirt",
+    "b": "Coarse Dirt",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Gravel",
+    "b": "Gravel",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Gravel",
+    "b": "Gravel",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Dirt",
+    "b": "Dirt",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Dirt",
+    "b": "Coarse Dirt",
+    "ratio": 1.13,
+    "rgbd": 12.2
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Dirt",
+    "b": "Coarse Dirt",
+    "ratio": 1.13,
+    "rgbd": 12.2
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Stone",
+    "b": "Stone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   }
+  ]
+ },
+ "terrain_distinct": {
+  "pairs": 39,
+  "unknown": 0,
+  "findings": {
+   "mush": 5,
+   "clash": 1
+  },
+  "rows": [
+   {
+    "src": "theme:hollow",
+    "bucket": "wall",
+    "pattern": "voronoi",
+    "kind": "mush",
+    "a": "Mossy Cobblestone",
+    "b": "Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "theme:causeway",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gravel",
+    "b": "Cobblestone",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:causeway",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "theme:causeway",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Mossy Cobblestone",
+    "b": "Stone",
+    "ratio": 3.03,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:plinth",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cracked Stone Bricks",
+    "b": "Mossy Stone Bricks",
+    "ratio": 1.12,
+    "rgbd": 12.5
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Dirt",
+    "b": "Coarse Dirt",
+    "ratio": 1.13,
+    "rgbd": 12.2
+   }
+  ]
+ },
+ "made_raw": {
+  "pairs": 186,
+  "unknown": 0,
+  "findings": {
+   "mush": 70,
+   "repeat": 21
+  },
+  "rows": [
+   {
+    "src": "shape:s1788967793611_36",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Mossy Stone Bricks",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.12,
+    "rgbd": 12.5
+   },
+   {
+    "src": "shape:s1788967801288_37",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Mossy Stone Bricks",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.12,
+    "rgbd": 12.5
+   },
+   {
+    "src": "shape:s1788968832257_1",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Mossy Stone Bricks",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.12,
+    "rgbd": 12.5
+   },
+   {
+    "src": "shape:s1788968887566_2",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Mossy Stone Bricks",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.12,
+    "rgbd": 12.5
+   },
+   {
+    "src": "shape:s1788968919279_3",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Mossy Stone Bricks",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.12,
+    "rgbd": 12.5
+   },
+   {
+    "src": "shape:s1788968938943_4",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Mossy Stone Bricks",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.12,
+    "rgbd": 12.5
+   },
+   {
+    "src": "shape:s1788968994584_5",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Mossy Stone Bricks",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.12,
+    "rgbd": 12.5
+   },
+   {
+    "src": "shape:s1788969475804_9",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Mossy Stone Bricks",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.12,
+    "rgbd": 12.5
+   },
+   {
+    "src": "shape:s1788969491199_10",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Mossy Stone Bricks",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.12,
+    "rgbd": 12.5
+   },
+   {
+    "src": "shape:s1788969627904_11",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Mossy Stone Bricks",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.12,
+    "rgbd": 12.5
+   },
+   {
+    "src": "shape:s1788969857958_15",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Gravel",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788969857958_15",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Cobblestone",
+    "b": "Cobblestone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788969857958_15",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788969857958_15",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gravel",
+    "b": "Cobblestone",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788969857958_15",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788969968053_21",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Gravel",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788969968053_21",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Cobblestone",
+    "b": "Cobblestone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788969968053_21",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788969968053_21",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gravel",
+    "b": "Cobblestone",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788969968053_21",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788969981416_22",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Gravel",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788969981416_22",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Cobblestone",
+    "b": "Cobblestone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788969981416_22",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788969981416_22",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gravel",
+    "b": "Cobblestone",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788969981416_22",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788970002853_23",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Gravel",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788970002853_23",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Cobblestone",
+    "b": "Cobblestone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788970002853_23",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788970002853_23",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gravel",
+    "b": "Cobblestone",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788970002853_23",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788970034572_24",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Gravel",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788970034572_24",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Cobblestone",
+    "b": "Cobblestone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788970034572_24",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788970034572_24",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gravel",
+    "b": "Cobblestone",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788970034572_24",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788970696287_36",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Gravel",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788970696287_36",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Cobblestone",
+    "b": "Cobblestone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788970696287_36",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788970696287_36",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gravel",
+    "b": "Cobblestone",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788970696287_36",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788970701518_37",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Gravel",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788970701518_37",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Cobblestone",
+    "b": "Cobblestone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788970701518_37",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788970701518_37",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gravel",
+    "b": "Cobblestone",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788970701518_37",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788970704608_38",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Gravel",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788970704608_38",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Cobblestone",
+    "b": "Cobblestone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788970704608_38",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788970704608_38",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gravel",
+    "b": "Cobblestone",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788970704608_38",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788970707232_39",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Gravel",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788970707232_39",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Cobblestone",
+    "b": "Cobblestone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788970707232_39",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788970707232_39",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gravel",
+    "b": "Cobblestone",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788970707232_39",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788970785375_41",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Stone Bricks",
+    "b": "Stone Bricks",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788970785375_41",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970785375_41",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970803903_42",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Stone Bricks",
+    "b": "Stone Bricks",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788970803903_42",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970803903_42",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970812970_43",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Stone Bricks",
+    "b": "Stone Bricks",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788970812970_43",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970812970_43",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970815685_44",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Stone Bricks",
+    "b": "Stone Bricks",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788970815685_44",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970815685_44",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788971110907_51",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Stone Bricks",
+    "b": "Stone Bricks",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788971110907_51",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788971110907_51",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788971120324_52",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Stone Bricks",
+    "b": "Stone Bricks",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788971120324_52",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788971120324_52",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788971143922_53",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Stone Bricks",
+    "b": "Stone Bricks",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788971143922_53",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788971143922_53",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788971148801_54",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Stone Bricks",
+    "b": "Stone Bricks",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788971148801_54",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788971148801_54",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788971226519_56",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Stone Bricks",
+    "b": "Stone Bricks",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788971226519_56",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788971226519_56",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788971258826_57",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Stone Bricks",
+    "b": "Stone Bricks",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788971258826_57",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788971258826_57",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788971261015_58",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Stone Bricks",
+    "b": "Stone Bricks",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788971261015_58",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788971261015_58",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788971263154_59",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Stone Bricks",
+    "b": "Stone Bricks",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788971263154_59",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788971263154_59",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   }
+  ]
+ },
+ "made_distinct": {
+  "pairs": 123,
+  "unknown": 0,
+  "findings": {
+   "mush": 40
+  },
+  "rows": [
+   {
+    "src": "shape:s1788967793611_36",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Mossy Stone Bricks",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.12,
+    "rgbd": 12.5
+   },
+   {
+    "src": "shape:s1788967801288_37",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Mossy Stone Bricks",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.12,
+    "rgbd": 12.5
+   },
+   {
+    "src": "shape:s1788968832257_1",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Mossy Stone Bricks",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.12,
+    "rgbd": 12.5
+   },
+   {
+    "src": "shape:s1788968887566_2",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Mossy Stone Bricks",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.12,
+    "rgbd": 12.5
+   },
+   {
+    "src": "shape:s1788968919279_3",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Mossy Stone Bricks",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.12,
+    "rgbd": 12.5
+   },
+   {
+    "src": "shape:s1788968938943_4",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Mossy Stone Bricks",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.12,
+    "rgbd": 12.5
+   },
+   {
+    "src": "shape:s1788968994584_5",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Mossy Stone Bricks",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.12,
+    "rgbd": 12.5
+   },
+   {
+    "src": "shape:s1788969475804_9",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Mossy Stone Bricks",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.12,
+    "rgbd": 12.5
+   },
+   {
+    "src": "shape:s1788969491199_10",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Mossy Stone Bricks",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.12,
+    "rgbd": 12.5
+   },
+   {
+    "src": "shape:s1788969627904_11",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Mossy Stone Bricks",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.12,
+    "rgbd": 12.5
+   },
+   {
+    "src": "shape:s1788969857958_15",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Gravel",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788969857958_15",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788969968053_21",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Gravel",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788969968053_21",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788969981416_22",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Gravel",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788969981416_22",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788970002853_23",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Gravel",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788970002853_23",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788970034572_24",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Gravel",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788970034572_24",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788970696287_36",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Gravel",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788970696287_36",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788970701518_37",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Gravel",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788970701518_37",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788970704608_38",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Gravel",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788970704608_38",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788970707232_39",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Gravel",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788970707232_39",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "shape:s1788970785375_41",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970803903_42",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970812970_43",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970815685_44",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788971110907_51",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788971120324_52",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788971143922_53",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788971148801_54",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788971226519_56",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788971258826_57",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788971261015_58",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788971263154_59",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Stone Bricks",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.24,
+    "rgbd": 1.7
+   }
+  ]
+ }
+}

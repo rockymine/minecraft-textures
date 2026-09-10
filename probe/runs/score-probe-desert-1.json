@@ -1,0 +1,1179 @@
+{
+ "slug": "probe-desert-1",
+ "arm": "treatment",
+ "place": "desert",
+ "themes": 4,
+ "mapTheme": "desert",
+ "shapes": 80,
+ "shapesWithMaterial": 32,
+ "shapesWithTheme": 14,
+ "dressing": true,
+ "roomStyles": [
+  "spawn",
+  "wool"
+ ],
+ "terrain_raw": {
+  "pairs": 46,
+  "unknown": 0,
+  "findings": {
+   "repeat": 6,
+   "mush": 3,
+   "clash": 10,
+   "collapse": 2
+  },
+  "rows": [
+   {
+    "src": "theme:wadi",
+    "bucket": "surface",
+    "pattern": "cell",
+    "kind": "repeat",
+    "a": "Sand",
+    "b": "Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:wadi",
+    "bucket": "fill",
+    "pattern": "voronoi",
+    "kind": "mush",
+    "a": "Smooth Sandstone",
+    "b": "Sandstone",
+    "ratio": 1.18,
+    "rgbd": 1.7
+   },
+   {
+    "src": "theme:desert",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Sand",
+    "b": "Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:desert",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Sandstone",
+    "b": "Sandstone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:desert",
+    "bucket": "fill",
+    "pattern": "voronoi",
+    "kind": "mush",
+    "a": "Smooth Sandstone",
+    "b": "Sandstone",
+    "ratio": 1.18,
+    "rgbd": 1.7
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Red Stained Clay",
+    "b": "Orange Stained Clay",
+    "ratio": 1.0,
+    "rgbd": 30.6
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sandstone",
+    "b": "Red Sand",
+    "ratio": 2.81,
+    "rgbd": 6.9
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sandstone",
+    "b": "Red Sand",
+    "ratio": 2.81,
+    "rgbd": 6.9
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Red Sand",
+    "b": "Red Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sand",
+    "b": "Orange Stained Clay",
+    "ratio": 4.14,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sand",
+    "b": "Orange Stained Clay",
+    "ratio": 4.14,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Red Sandstone",
+    "b": "Red Sandstone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sandstone",
+    "b": "Red Sand",
+    "ratio": 2.81,
+    "rgbd": 6.9
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sandstone",
+    "b": "Red Sand",
+    "ratio": 2.81,
+    "rgbd": 6.9
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "fill",
+    "pattern": "voronoi",
+    "kind": "clash",
+    "a": "Orange Stained Clay",
+    "b": "Red Sandstone",
+    "ratio": 3.62,
+    "rgbd": 9.5
+   },
+   {
+    "src": "theme:ruin",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Smooth Sandstone",
+    "b": "Smooth Sandstone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:ruin",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "theme:ruin",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "theme:ruin",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "theme:ruin",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "theme:ruin",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Double Sandstone Slab",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 30.1
+   }
+  ]
+ },
+ "terrain_distinct": {
+  "pairs": 28,
+  "unknown": 0,
+  "findings": {
+   "mush": 3,
+   "clash": 6,
+   "collapse": 1
+  },
+  "rows": [
+   {
+    "src": "theme:wadi",
+    "bucket": "fill",
+    "pattern": "voronoi",
+    "kind": "mush",
+    "a": "Smooth Sandstone",
+    "b": "Sandstone",
+    "ratio": 1.18,
+    "rgbd": 1.7
+   },
+   {
+    "src": "theme:desert",
+    "bucket": "fill",
+    "pattern": "voronoi",
+    "kind": "mush",
+    "a": "Smooth Sandstone",
+    "b": "Sandstone",
+    "ratio": 1.18,
+    "rgbd": 1.7
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Red Stained Clay",
+    "b": "Orange Stained Clay",
+    "ratio": 1.0,
+    "rgbd": 30.6
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sandstone",
+    "b": "Red Sand",
+    "ratio": 2.81,
+    "rgbd": 6.9
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sand",
+    "b": "Orange Stained Clay",
+    "ratio": 4.14,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sandstone",
+    "b": "Red Sand",
+    "ratio": 2.81,
+    "rgbd": 6.9
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "fill",
+    "pattern": "voronoi",
+    "kind": "clash",
+    "a": "Orange Stained Clay",
+    "b": "Red Sandstone",
+    "ratio": 3.62,
+    "rgbd": 9.5
+   },
+   {
+    "src": "theme:ruin",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "theme:ruin",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "theme:ruin",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Double Sandstone Slab",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 30.1
+   }
+  ]
+ },
+ "made_raw": {
+  "pairs": 54,
+  "unknown": 0,
+  "findings": {
+   "repeat": 9,
+   "collapse": 18,
+   "clash": 27
+  },
+  "rows": [
+   {
+    "src": "shape:s1788969857958_15",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Smooth Sandstone",
+    "b": "Smooth Sandstone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788969857958_15",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788969857958_15",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788969857958_15",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788969857958_15",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788969857958_15",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Double Sandstone Slab",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 30.1
+   },
+   {
+    "src": "shape:s1788969968053_21",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Smooth Sandstone",
+    "b": "Smooth Sandstone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788969968053_21",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788969968053_21",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788969968053_21",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788969968053_21",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788969968053_21",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Double Sandstone Slab",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 30.1
+   },
+   {
+    "src": "shape:s1788969981416_22",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Smooth Sandstone",
+    "b": "Smooth Sandstone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788969981416_22",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788969981416_22",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788969981416_22",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788969981416_22",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788969981416_22",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Double Sandstone Slab",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 30.1
+   },
+   {
+    "src": "shape:s1788970002853_23",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Smooth Sandstone",
+    "b": "Smooth Sandstone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788970002853_23",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970002853_23",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788970002853_23",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970002853_23",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788970002853_23",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Double Sandstone Slab",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 30.1
+   },
+   {
+    "src": "shape:s1788970034572_24",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Smooth Sandstone",
+    "b": "Smooth Sandstone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788970034572_24",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970034572_24",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788970034572_24",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970034572_24",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788970034572_24",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Double Sandstone Slab",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 30.1
+   },
+   {
+    "src": "shape:s1788970696287_36",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Smooth Sandstone",
+    "b": "Smooth Sandstone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788970696287_36",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970696287_36",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788970696287_36",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970696287_36",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788970696287_36",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Double Sandstone Slab",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 30.1
+   },
+   {
+    "src": "shape:s1788970701518_37",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Smooth Sandstone",
+    "b": "Smooth Sandstone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788970701518_37",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970701518_37",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788970701518_37",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970701518_37",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788970701518_37",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Double Sandstone Slab",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 30.1
+   },
+   {
+    "src": "shape:s1788970704608_38",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Smooth Sandstone",
+    "b": "Smooth Sandstone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788970704608_38",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970704608_38",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788970704608_38",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970704608_38",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788970704608_38",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Double Sandstone Slab",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 30.1
+   },
+   {
+    "src": "shape:s1788970707232_39",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Smooth Sandstone",
+    "b": "Smooth Sandstone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788970707232_39",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970707232_39",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788970707232_39",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970707232_39",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788970707232_39",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Double Sandstone Slab",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 30.1
+   }
+  ]
+ },
+ "made_distinct": {
+  "pairs": 27,
+  "unknown": 0,
+  "findings": {
+   "collapse": 9,
+   "clash": 18
+  },
+  "rows": [
+   {
+    "src": "shape:s1788969857958_15",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788969857958_15",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788969857958_15",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Double Sandstone Slab",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 30.1
+   },
+   {
+    "src": "shape:s1788969968053_21",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788969968053_21",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788969968053_21",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Double Sandstone Slab",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 30.1
+   },
+   {
+    "src": "shape:s1788969981416_22",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788969981416_22",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788969981416_22",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Double Sandstone Slab",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 30.1
+   },
+   {
+    "src": "shape:s1788970002853_23",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970002853_23",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788970002853_23",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Double Sandstone Slab",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 30.1
+   },
+   {
+    "src": "shape:s1788970034572_24",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970034572_24",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788970034572_24",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Double Sandstone Slab",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 30.1
+   },
+   {
+    "src": "shape:s1788970696287_36",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970696287_36",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788970696287_36",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Double Sandstone Slab",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 30.1
+   },
+   {
+    "src": "shape:s1788970701518_37",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970701518_37",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788970701518_37",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Double Sandstone Slab",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 30.1
+   },
+   {
+    "src": "shape:s1788970704608_38",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970704608_38",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788970704608_38",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Double Sandstone Slab",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 30.1
+   },
+   {
+    "src": "shape:s1788970707232_39",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Double Sandstone Slab",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "shape:s1788970707232_39",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Smooth Sandstone",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 28.9
+   },
+   {
+    "src": "shape:s1788970707232_39",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Double Sandstone Slab",
+    "b": "White Stained Clay",
+    "ratio": 3.0,
+    "rgbd": 30.1
+   }
+  ]
+ }
+}

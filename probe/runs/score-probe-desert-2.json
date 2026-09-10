@@ -1,0 +1,460 @@
+{
+ "slug": "probe-desert-2",
+ "arm": "control",
+ "place": "desert",
+ "themes": 5,
+ "mapTheme": "dune",
+ "shapes": 80,
+ "shapesWithMaterial": 21,
+ "shapesWithTheme": 40,
+ "dressing": true,
+ "roomStyles": [
+  "spawn",
+  "wool"
+ ],
+ "terrain_raw": {
+  "pairs": 59,
+  "unknown": 0,
+  "findings": {
+   "repeat": 19,
+   "clash": 9,
+   "collapse": 1,
+   "mush": 5
+  },
+  "rows": [
+   {
+    "src": "theme:dune",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Sand",
+    "b": "Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:dune",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Sand",
+    "b": "Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:dune",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Sand",
+    "b": "Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:dune",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Sand",
+    "b": "Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:dune",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Sand",
+    "b": "Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:dune",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Sand",
+    "b": "Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:dune",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Sand",
+    "b": "Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:dune",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Sandstone",
+    "b": "Sandstone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Red Sand",
+    "b": "Red Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sand",
+    "b": "Orange Stained Clay",
+    "ratio": 4.14,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Red Sand",
+    "b": "Red Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sand",
+    "b": "Red Sandstone",
+    "ratio": 2.81,
+    "rgbd": 6.9
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sand",
+    "b": "Orange Stained Clay",
+    "ratio": 4.14,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Red Sand",
+    "b": "Red Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sand",
+    "b": "Red Sandstone",
+    "ratio": 2.81,
+    "rgbd": 6.9
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Orange Stained Clay",
+    "b": "Red Sand",
+    "ratio": 4.14,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sand",
+    "b": "Red Sandstone",
+    "ratio": 2.81,
+    "rgbd": 6.9
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sand",
+    "b": "Red Sandstone",
+    "ratio": 2.81,
+    "rgbd": 6.9
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sand",
+    "b": "Orange Stained Clay",
+    "ratio": 4.14,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sand",
+    "b": "Red Sandstone",
+    "ratio": 2.81,
+    "rgbd": 6.9
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Red Sandstone",
+    "b": "Red Sandstone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:wadi",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Sandstone",
+    "b": "Sandstone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:wadi",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Sand",
+    "b": "Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:wadi",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Sandstone",
+    "b": "Sandstone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:sandstone-work",
+    "bucket": "surface",
+    "pattern": "checker",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Sandstone",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "theme:sandstone-work",
+    "bucket": "wall",
+    "pattern": "wallRun",
+    "kind": "mush",
+    "a": "Smooth Sandstone",
+    "b": "Sandstone",
+    "ratio": 1.18,
+    "rgbd": 1.7
+   },
+   {
+    "src": "theme:sandstone-work",
+    "bucket": "wall",
+    "pattern": "wallRun",
+    "kind": "mush",
+    "a": "Smooth Sandstone",
+    "b": "Sandstone",
+    "ratio": 1.18,
+    "rgbd": 1.7
+   },
+   {
+    "src": "theme:sandstone-work",
+    "bucket": "wall",
+    "pattern": "wallRun",
+    "kind": "repeat",
+    "a": "Sandstone",
+    "b": "Sandstone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:oasis-soil",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Coarse Dirt",
+    "b": "Coarse Dirt",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:oasis-soil",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Coarse Dirt",
+    "b": "Dirt",
+    "ratio": 1.13,
+    "rgbd": 12.2
+   },
+   {
+    "src": "theme:oasis-soil",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Coarse Dirt",
+    "b": "Coarse Dirt",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:oasis-soil",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Coarse Dirt",
+    "b": "Dirt",
+    "ratio": 1.13,
+    "rgbd": 12.2
+   },
+   {
+    "src": "theme:oasis-soil",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Coarse Dirt",
+    "b": "Coarse Dirt",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:oasis-soil",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Dirt",
+    "b": "Coarse Dirt",
+    "ratio": 1.13,
+    "rgbd": 12.2
+   }
+  ]
+ },
+ "terrain_distinct": {
+  "pairs": 18,
+  "unknown": 0,
+  "findings": {
+   "clash": 4,
+   "collapse": 1,
+   "mush": 2
+  },
+  "rows": [
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sand",
+    "b": "Orange Stained Clay",
+    "ratio": 4.14,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sand",
+    "b": "Red Sandstone",
+    "ratio": 2.81,
+    "rgbd": 6.9
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sand",
+    "b": "Red Sandstone",
+    "ratio": 2.81,
+    "rgbd": 6.9
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sand",
+    "b": "Orange Stained Clay",
+    "ratio": 4.14,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:sandstone-work",
+    "bucket": "surface",
+    "pattern": "checker",
+    "kind": "collapse",
+    "a": "Smooth Sandstone",
+    "b": "Sandstone",
+    "ratio": 1.0,
+    "rgbd": 1.7
+   },
+   {
+    "src": "theme:sandstone-work",
+    "bucket": "wall",
+    "pattern": "wallRun",
+    "kind": "mush",
+    "a": "Smooth Sandstone",
+    "b": "Sandstone",
+    "ratio": 1.18,
+    "rgbd": 1.7
+   },
+   {
+    "src": "theme:oasis-soil",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Coarse Dirt",
+    "b": "Dirt",
+    "ratio": 1.13,
+    "rgbd": 12.2
+   }
+  ]
+ },
+ "made_raw": {
+  "pairs": 0,
+  "unknown": 0,
+  "findings": {},
+  "rows": []
+ },
+ "made_distinct": {
+  "pairs": 0,
+  "unknown": 0,
+  "findings": {},
+  "rows": []
+ }
+}

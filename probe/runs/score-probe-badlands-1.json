@@ -1,0 +1,468 @@
+{
+ "slug": "probe-badlands-1",
+ "arm": "treatment",
+ "place": "badlands",
+ "themes": 4,
+ "mapTheme": "mesa",
+ "shapes": 80,
+ "shapesWithMaterial": 24,
+ "shapesWithTheme": 14,
+ "dressing": true,
+ "roomStyles": [
+  "spawn",
+  "wool"
+ ],
+ "terrain_raw": {
+  "pairs": 76,
+  "unknown": 0,
+  "findings": {
+   "repeat": 17,
+   "clash": 17,
+   "mush": 1
+  },
+  "rows": [
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Red Sand",
+    "b": "Red Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Red Sand",
+    "b": "Red Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sand",
+    "b": "Orange Stained Clay",
+    "ratio": 4.14,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sand",
+    "b": "Orange Stained Clay",
+    "ratio": 4.14,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Red Sand",
+    "b": "Red Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Red Sand",
+    "b": "Red Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Red Sand",
+    "b": "Red Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sand",
+    "b": "Orange Stained Clay",
+    "ratio": 4.14,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sand",
+    "b": "Orange Stained Clay",
+    "ratio": 4.14,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Red Sand",
+    "b": "Red Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Red Sand",
+    "b": "Red Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sand",
+    "b": "Orange Stained Clay",
+    "ratio": 4.14,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sand",
+    "b": "Orange Stained Clay",
+    "ratio": 4.14,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Red Sand",
+    "b": "Red Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Red Sand",
+    "b": "Red Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Orange Stained Clay",
+    "b": "Orange Stained Clay",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Orange Stained Clay",
+    "b": "Red Sand",
+    "ratio": 4.14,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Orange Stained Clay",
+    "b": "Coarse Dirt",
+    "ratio": 12.38,
+    "rgbd": 41.6
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Orange Stained Clay",
+    "b": "Red Sand",
+    "ratio": 4.14,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Hardened Clay",
+    "b": "Hardened Clay",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Hardened Clay",
+    "b": "Coarse Dirt",
+    "ratio": 7.22,
+    "rgbd": 26.1
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Hardened Clay",
+    "b": "Coarse Dirt",
+    "ratio": 7.22,
+    "rgbd": 26.1
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Orange Stained Clay",
+    "b": "Red Sand",
+    "ratio": 4.14,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Orange Stained Clay",
+    "b": "Coarse Dirt",
+    "ratio": 12.38,
+    "rgbd": 41.6
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Orange Stained Clay",
+    "b": "Red Sand",
+    "ratio": 4.14,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Red Sand",
+    "b": "Red Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Coarse Dirt",
+    "b": "Orange Stained Clay",
+    "ratio": 12.38,
+    "rgbd": 41.6
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Coarse Dirt",
+    "b": "Hardened Clay",
+    "ratio": 7.22,
+    "rgbd": 26.1
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Coarse Dirt",
+    "b": "Red Stained Clay",
+    "ratio": 12.38,
+    "rgbd": 36.8
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Orange Stained Clay",
+    "b": "Red Stained Clay",
+    "ratio": 1.0,
+    "rgbd": 30.6
+   },
+   {
+    "src": "theme:wash",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Sand",
+    "b": "Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:wash",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Red Sand",
+    "b": "Red Sand",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:butte",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "White Stained Clay",
+    "b": "White Stained Clay",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:butte",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "White Stained Clay",
+    "b": "White Stained Clay",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:butte",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "White Stained Clay",
+    "b": "White Stained Clay",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   }
+  ]
+ },
+ "terrain_distinct": {
+  "pairs": 21,
+  "unknown": 0,
+  "findings": {
+   "clash": 6,
+   "mush": 1
+  },
+  "rows": [
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Red Sand",
+    "b": "Orange Stained Clay",
+    "ratio": 4.14,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Orange Stained Clay",
+    "b": "Coarse Dirt",
+    "ratio": 12.38,
+    "rgbd": 41.6
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Hardened Clay",
+    "b": "Coarse Dirt",
+    "ratio": 7.22,
+    "rgbd": 26.1
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Coarse Dirt",
+    "b": "Orange Stained Clay",
+    "ratio": 12.38,
+    "rgbd": 41.6
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Coarse Dirt",
+    "b": "Hardened Clay",
+    "ratio": 7.22,
+    "rgbd": 26.1
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Coarse Dirt",
+    "b": "Red Stained Clay",
+    "ratio": 12.38,
+    "rgbd": 36.8
+   },
+   {
+    "src": "theme:mesa",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Orange Stained Clay",
+    "b": "Red Stained Clay",
+    "ratio": 1.0,
+    "rgbd": 30.6
+   }
+  ]
+ },
+ "made_raw": {
+  "pairs": 0,
+  "unknown": 0,
+  "findings": {},
+  "rows": []
+ },
+ "made_distinct": {
+  "pairs": 0,
+  "unknown": 0,
+  "findings": {},
+  "rows": []
+ }
+}

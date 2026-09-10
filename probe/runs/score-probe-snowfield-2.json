@@ -1,0 +1,483 @@
+{
+ "slug": "probe-snowfield-2",
+ "arm": "control",
+ "place": "snowfield",
+ "themes": 4,
+ "mapTheme": "snowfield",
+ "shapes": 80,
+ "shapesWithMaterial": 24,
+ "shapesWithTheme": 27,
+ "dressing": true,
+ "roomStyles": [
+  "spawn",
+  "wool"
+ ],
+ "terrain_raw": {
+  "pairs": 108,
+  "unknown": 0,
+  "findings": {
+   "repeat": 21,
+   "mush": 9
+  },
+  "rows": [
+   {
+    "src": "theme:hewn",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Stone Bricks",
+    "b": "Stone Bricks",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:hewn",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Andesite",
+    "b": "Coal Ore",
+    "ratio": 1.1,
+    "rgbd": 145.5
+   },
+   {
+    "src": "theme:hewn",
+    "bucket": "fill",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Stone",
+    "b": "Stone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:trodden",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Snow Block",
+    "b": "Snow Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:trodden",
+    "bucket": "fill",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Stone",
+    "b": "Stone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:drystone",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Snow Block",
+    "b": "Snow Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:drystone",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Snow Block",
+    "b": "Snow Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:drystone",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Gravel",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:drystone",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gravel",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.13,
+    "rgbd": 17.7
+   },
+   {
+    "src": "theme:snowfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Snow Block",
+    "b": "Snow Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:snowfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Snow Block",
+    "b": "Quartz Block",
+    "ratio": 1.3,
+    "rgbd": 30.8
+   },
+   {
+    "src": "theme:snowfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Snow Block",
+    "b": "Snow Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:snowfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Snow Block",
+    "b": "Quartz Block",
+    "ratio": 1.3,
+    "rgbd": 30.8
+   },
+   {
+    "src": "theme:snowfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Snow Block",
+    "b": "Snow Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:snowfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Quartz Block",
+    "b": "Snow Block",
+    "ratio": 1.3,
+    "rgbd": 30.8
+   },
+   {
+    "src": "theme:snowfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Packed Ice",
+    "b": "Packed Ice",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:snowfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Snow Block",
+    "b": "Snow Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:snowfield",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Snow Block",
+    "b": "Snow Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:snowfield",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Snow Block",
+    "b": "Quartz Block",
+    "ratio": 1.3,
+    "rgbd": 30.8
+   },
+   {
+    "src": "theme:snowfield",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Snow Block",
+    "b": "Snow Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:snowfield",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Snow Block",
+    "b": "Quartz Block",
+    "ratio": 1.3,
+    "rgbd": 30.8
+   },
+   {
+    "src": "theme:snowfield",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Snow Block",
+    "b": "Snow Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:snowfield",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Quartz Block",
+    "b": "Snow Block",
+    "ratio": 1.3,
+    "rgbd": 30.8
+   },
+   {
+    "src": "theme:snowfield",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Stone",
+    "b": "Stone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:snowfield",
+    "bucket": "fill",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Stone",
+    "b": "Stone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:snowfield",
+    "bucket": "fill",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Stone",
+    "b": "Stone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:snowfield",
+    "bucket": "fill",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Stone",
+    "b": "Stone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:snowfield",
+    "bucket": "fill",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Stone",
+    "b": "Stone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:snowfield",
+    "bucket": "fill",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Stone",
+    "b": "Stone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:snowfield",
+    "bucket": "fill",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Stone",
+    "b": "Stone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   }
+  ]
+ },
+ "terrain_distinct": {
+  "pairs": 63,
+  "unknown": 0,
+  "findings": {
+   "mush": 5
+  },
+  "rows": [
+   {
+    "src": "theme:hewn",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Andesite",
+    "b": "Coal Ore",
+    "ratio": 1.1,
+    "rgbd": 145.5
+   },
+   {
+    "src": "theme:drystone",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Gravel",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:drystone",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gravel",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.13,
+    "rgbd": 17.7
+   },
+   {
+    "src": "theme:snowfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Snow Block",
+    "b": "Quartz Block",
+    "ratio": 1.3,
+    "rgbd": 30.8
+   },
+   {
+    "src": "theme:snowfield",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Snow Block",
+    "b": "Quartz Block",
+    "ratio": 1.3,
+    "rgbd": 30.8
+   }
+  ]
+ },
+ "made_raw": {
+  "pairs": 21,
+  "unknown": 0,
+  "findings": {
+   "repeat": 4,
+   "mush": 2
+  },
+  "rows": [
+   {
+    "src": "shape:s1788969857958_15",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Snow Block",
+    "b": "Snow Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788969857958_15",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Gravel",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788969857958_15",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gravel",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.13,
+    "rgbd": 17.7
+   },
+   {
+    "src": "shape:s1788970872271_49",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Podzol",
+    "b": "Podzol",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788971162920_55",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Podzol",
+    "b": "Podzol",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "shape:s1788971275387_60",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Podzol",
+    "b": "Podzol",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   }
+  ]
+ },
+ "made_distinct": {
+  "pairs": 12,
+  "unknown": 0,
+  "findings": {
+   "mush": 2
+  },
+  "rows": [
+   {
+    "src": "shape:s1788969857958_15",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Gravel",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "shape:s1788969857958_15",
+    "bucket": "shape-top",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gravel",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.13,
+    "rgbd": 17.7
+   }
+  ]
+ }
+}

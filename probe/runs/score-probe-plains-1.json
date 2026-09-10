@@ -1,0 +1,1456 @@
+{
+ "slug": "probe-plains-1",
+ "arm": "control",
+ "place": "plains",
+ "themes": 8,
+ "mapTheme": "plains",
+ "shapes": 80,
+ "shapesWithMaterial": 0,
+ "shapesWithTheme": 54,
+ "dressing": true,
+ "roomStyles": [
+  "spawn",
+  "wool"
+ ],
+ "terrain_raw": {
+  "pairs": 221,
+  "unknown": 0,
+  "findings": {
+   "repeat": 107,
+   "mush": 21
+  },
+  "rows": [
+   {
+    "src": "theme:drystone",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Cobblestone",
+    "b": "Cobblestone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:drystone",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "theme:drystone",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "theme:drystone",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Cobblestone",
+    "b": "Cobblestone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:drystone",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "theme:drystone",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "theme:drystone",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "theme:drystone",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Cobblestone",
+    "b": "Cobblestone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:drystone",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Mossy Cobblestone",
+    "b": "Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "theme:tunnel",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gravel",
+    "b": "Cobblestone",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:tunnel",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "theme:tunnel",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Stone Bricks",
+    "b": "Stone Bricks",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:tunnel",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Mossy Stone Bricks",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.12,
+    "rgbd": 12.5
+   },
+   {
+    "src": "theme:soil",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:soil",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Podzol",
+    "b": "Podzol",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:trail",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Coarse Dirt",
+    "b": "Coarse Dirt",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:trail",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Coarse Dirt",
+    "b": "Dirt",
+    "ratio": 1.13,
+    "rgbd": 12.2
+   },
+   {
+    "src": "theme:trail",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Coarse Dirt",
+    "b": "Dirt",
+    "ratio": 1.13,
+    "rgbd": 12.2
+   },
+   {
+    "src": "theme:trail",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Coarse Dirt",
+    "b": "Coarse Dirt",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:trail",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Coarse Dirt",
+    "b": "Dirt",
+    "ratio": 1.13,
+    "rgbd": 12.2
+   },
+   {
+    "src": "theme:trail",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Coarse Dirt",
+    "b": "Dirt",
+    "ratio": 1.13,
+    "rgbd": 12.2
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Coarse Dirt",
+    "b": "Coarse Dirt",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Coarse Dirt",
+    "b": "Dirt",
+    "ratio": 1.13,
+    "rgbd": 12.2
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Coarse Dirt",
+    "b": "Dirt",
+    "ratio": 1.13,
+    "rgbd": 12.2
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gravel",
+    "b": "Cobblestone",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Coarse Dirt",
+    "b": "Coarse Dirt",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Coarse Dirt",
+    "b": "Dirt",
+    "ratio": 1.13,
+    "rgbd": 12.2
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Coarse Dirt",
+    "b": "Dirt",
+    "ratio": 1.13,
+    "rgbd": 12.2
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gravel",
+    "b": "Cobblestone",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Grass Block",
+    "b": "Grass Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Cobblestone",
+    "b": "Cobblestone",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Mossy Cobblestone",
+    "b": "Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   }
+  ]
+ },
+ "terrain_distinct": {
+  "pairs": 68,
+  "unknown": 0,
+  "findings": {
+   "mush": 13
+  },
+  "rows": [
+   {
+    "src": "theme:drystone",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "theme:drystone",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "theme:drystone",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "theme:tunnel",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gravel",
+    "b": "Cobblestone",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:tunnel",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   },
+   {
+    "src": "theme:tunnel",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Mossy Stone Bricks",
+    "b": "Cracked Stone Bricks",
+    "ratio": 1.12,
+    "rgbd": 12.5
+   },
+   {
+    "src": "theme:trail",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Coarse Dirt",
+    "b": "Dirt",
+    "ratio": 1.13,
+    "rgbd": 12.2
+   },
+   {
+    "src": "theme:trail",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Coarse Dirt",
+    "b": "Dirt",
+    "ratio": 1.13,
+    "rgbd": 12.2
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Coarse Dirt",
+    "b": "Dirt",
+    "ratio": 1.13,
+    "rgbd": 12.2
+   },
+   {
+    "src": "theme:plains",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gravel",
+    "b": "Cobblestone",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Coarse Dirt",
+    "b": "Dirt",
+    "ratio": 1.13,
+    "rgbd": 12.2
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gravel",
+    "b": "Cobblestone",
+    "ratio": 1.32,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:knoll",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Cobblestone",
+    "b": "Mossy Cobblestone",
+    "ratio": 1.23,
+    "rgbd": 26.9
+   }
+  ]
+ },
+ "made_raw": {
+  "pairs": 0,
+  "unknown": 0,
+  "findings": {},
+  "rows": []
+ },
+ "made_distinct": {
+  "pairs": 0,
+  "unknown": 0,
+  "findings": {},
+  "rows": []
+ }
+}

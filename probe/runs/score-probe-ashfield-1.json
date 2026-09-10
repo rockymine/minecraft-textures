@@ -1,0 +1,1148 @@
+{
+ "slug": "probe-ashfield-1",
+ "arm": "control",
+ "place": "ashfield",
+ "themes": 4,
+ "mapTheme": "ashfield",
+ "shapes": 80,
+ "shapesWithMaterial": 0,
+ "shapesWithTheme": 53,
+ "dressing": true,
+ "roomStyles": [
+  "spawn",
+  "wool"
+ ],
+ "terrain_raw": {
+  "pairs": 174,
+  "unknown": 0,
+  "findings": {
+   "clash": 28,
+   "mush": 31,
+   "repeat": 19
+  },
+  "rows": [
+   {
+    "src": "theme:emberbed",
+    "bucket": "surface",
+    "pattern": "electric",
+    "kind": "clash",
+    "a": "Orange Stained Clay",
+    "b": "Red Sand",
+    "ratio": 4.14,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:emberbed",
+    "bucket": "surface",
+    "pattern": "electric",
+    "kind": "mush",
+    "a": "Orange Stained Clay",
+    "b": "Red Stained Clay",
+    "ratio": 1.0,
+    "rgbd": 30.6
+   },
+   {
+    "src": "theme:emberbed",
+    "bucket": "surface",
+    "pattern": "electric",
+    "kind": "clash",
+    "a": "Red Sand",
+    "b": "Red Stained Clay",
+    "ratio": 4.14,
+    "rgbd": 41.0
+   },
+   {
+    "src": "theme:emberbed",
+    "bucket": "surface",
+    "pattern": "electric",
+    "kind": "mush",
+    "a": "Gray Stained Clay",
+    "b": "Black Stained Clay",
+    "ratio": 1.11,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:emberbed",
+    "bucket": "surface",
+    "pattern": "electric",
+    "kind": "clash",
+    "a": "Gray Stained Clay",
+    "b": "Coal Block",
+    "ratio": 7.5,
+    "rgbd": 36.7
+   },
+   {
+    "src": "theme:emberbed",
+    "bucket": "surface",
+    "pattern": "electric",
+    "kind": "clash",
+    "a": "Gray Stained Clay",
+    "b": "Coal Block",
+    "ratio": 7.5,
+    "rgbd": 36.7
+   },
+   {
+    "src": "theme:emberbed",
+    "bucket": "surface",
+    "pattern": "electric",
+    "kind": "clash",
+    "a": "Black Stained Clay",
+    "b": "Coal Block",
+    "ratio": 8.33,
+    "rgbd": 15.1
+   },
+   {
+    "src": "theme:emberbed",
+    "bucket": "surface",
+    "pattern": "electric",
+    "kind": "clash",
+    "a": "Black Stained Clay",
+    "b": "Coal Block",
+    "ratio": 8.33,
+    "rgbd": 15.1
+   },
+   {
+    "src": "theme:emberbed",
+    "bucket": "surface",
+    "pattern": "electric",
+    "kind": "repeat",
+    "a": "Coal Block",
+    "b": "Coal Block",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:cinder",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Black Stained Clay",
+    "b": "Gray Stained Clay",
+    "ratio": 1.11,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:cinder",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Black Stained Clay",
+    "b": "Gray Stained Clay",
+    "ratio": 1.11,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:cinder",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Black Stained Clay",
+    "b": "Black Stained Clay",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:cinder",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Gray Stained Clay",
+    "b": "Gray Stained Clay",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:cinder",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gray Stained Clay",
+    "b": "Black Stained Clay",
+    "ratio": 1.11,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:cinder",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Red Stained Clay",
+    "b": "Orange Stained Clay",
+    "ratio": 1.0,
+    "rgbd": 30.6
+   },
+   {
+    "src": "theme:cinder",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Red Stained Clay",
+    "b": "Red Stained Clay",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:cinder",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Orange Stained Clay",
+    "b": "Red Stained Clay",
+    "ratio": 1.0,
+    "rgbd": 30.6
+   },
+   {
+    "src": "theme:cinder",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gray Stained Clay",
+    "b": "Black Stained Clay",
+    "ratio": 1.11,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:cinder",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gray Stained Clay",
+    "b": "Black Stained Clay",
+    "ratio": 1.11,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:cinder",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Black Stained Clay",
+    "b": "Gray Stained Clay",
+    "ratio": 1.11,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:cinder",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Black Stained Clay",
+    "b": "Black Stained Clay",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:cinder",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Black Stained Clay",
+    "b": "Coal Block",
+    "ratio": 8.33,
+    "rgbd": 15.1
+   },
+   {
+    "src": "theme:cinder",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Red Stained Clay",
+    "b": "Red Stained Clay",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:cinder",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gray Stained Clay",
+    "b": "Black Stained Clay",
+    "ratio": 1.11,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:cinder",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Gray Stained Clay",
+    "b": "Coal Block",
+    "ratio": 7.5,
+    "rgbd": 36.7
+   },
+   {
+    "src": "theme:cinder",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Black Stained Clay",
+    "b": "Coal Block",
+    "ratio": 8.33,
+    "rgbd": 15.1
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Gravel",
+    "b": "Gravel",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Light Gray Wool",
+    "b": "Light Gray Wool",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Gravel",
+    "b": "Gravel",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Andesite",
+    "b": "Coal Ore",
+    "ratio": 1.1,
+    "rgbd": 145.5
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Gray Wool",
+    "b": "Coal Ore",
+    "ratio": 4.53,
+    "rgbd": 15.6
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Gray Stained Clay",
+    "b": "Coal Block",
+    "ratio": 7.5,
+    "rgbd": 36.7
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gray Stained Clay",
+    "b": "Black Stained Clay",
+    "ratio": 1.11,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Gray Stained Clay",
+    "b": "Gray Stained Clay",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Gray Stained Clay",
+    "b": "Gray Wool",
+    "ratio": 5.7,
+    "rgbd": 38.3
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Coal Block",
+    "b": "Black Stained Clay",
+    "ratio": 8.33,
+    "rgbd": 15.1
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Coal Block",
+    "b": "Gray Stained Clay",
+    "ratio": 7.5,
+    "rgbd": 36.7
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Black Stained Clay",
+    "b": "Gray Stained Clay",
+    "ratio": 1.11,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Gray Stained Clay",
+    "b": "Gray Wool",
+    "ratio": 5.7,
+    "rgbd": 38.3
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Gray Stained Clay",
+    "b": "Coal Block",
+    "ratio": 7.5,
+    "rgbd": 36.7
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gray Stained Clay",
+    "b": "Black Stained Clay",
+    "ratio": 1.11,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Gray Stained Clay",
+    "b": "Gray Stained Clay",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Gray Stained Clay",
+    "b": "Gray Wool",
+    "ratio": 5.7,
+    "rgbd": 38.3
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Coal Block",
+    "b": "Black Stained Clay",
+    "ratio": 8.33,
+    "rgbd": 15.1
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Coal Block",
+    "b": "Gray Stained Clay",
+    "ratio": 7.5,
+    "rgbd": 36.7
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Black Stained Clay",
+    "b": "Gray Stained Clay",
+    "ratio": 1.11,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Gray Stained Clay",
+    "b": "Gray Wool",
+    "ratio": 5.7,
+    "rgbd": 38.3
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Coal Block",
+    "b": "Gray Stained Clay",
+    "ratio": 7.5,
+    "rgbd": 36.7
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Coal Block",
+    "b": "Black Stained Clay",
+    "ratio": 8.33,
+    "rgbd": 15.1
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Coal Block",
+    "b": "Gray Stained Clay",
+    "ratio": 7.5,
+    "rgbd": 36.7
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gray Stained Clay",
+    "b": "Black Stained Clay",
+    "ratio": 1.11,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Gray Stained Clay",
+    "b": "Gray Stained Clay",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Black Stained Clay",
+    "b": "Gray Stained Clay",
+    "ratio": 1.11,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gray Stained Clay",
+    "b": "Black Stained Clay",
+    "ratio": 1.11,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Gray Stained Clay",
+    "b": "Gray Wool",
+    "ratio": 5.7,
+    "rgbd": 38.3
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Gray Stained Clay",
+    "b": "Coal Block",
+    "ratio": 7.5,
+    "rgbd": 36.7
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Gray Stained Clay",
+    "b": "Gray Stained Clay",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Black Stained Clay",
+    "b": "Coal Block",
+    "ratio": 8.33,
+    "rgbd": 15.1
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Black Stained Clay",
+    "b": "Gray Stained Clay",
+    "ratio": 1.11,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Gray Wool",
+    "b": "Gray Stained Clay",
+    "ratio": 5.7,
+    "rgbd": 38.3
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Coal Block",
+    "b": "Gray Stained Clay",
+    "ratio": 7.5,
+    "rgbd": 36.7
+   },
+   {
+    "src": "theme:basaltwork",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Cyan Stained Clay",
+    "b": "Cyan Stained Clay",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:basaltwork",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Gray Wool",
+    "b": "Gray Wool",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:basaltwork",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Polished Andesite",
+    "b": "Polished Andesite",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:basaltwork",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Polished Andesite",
+    "b": "Andesite",
+    "ratio": 1.15,
+    "rgbd": 6.9
+   },
+   {
+    "src": "theme:basaltwork",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Polished Andesite",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.1,
+    "rgbd": 38.2
+   },
+   {
+    "src": "theme:basaltwork",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Polished Andesite",
+    "b": "Polished Andesite",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:basaltwork",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Polished Andesite",
+    "b": "Andesite",
+    "ratio": 1.15,
+    "rgbd": 6.9
+   },
+   {
+    "src": "theme:basaltwork",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Polished Andesite",
+    "b": "Andesite",
+    "ratio": 1.15,
+    "rgbd": 6.9
+   },
+   {
+    "src": "theme:basaltwork",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Polished Andesite",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.1,
+    "rgbd": 38.2
+   },
+   {
+    "src": "theme:basaltwork",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Polished Andesite",
+    "b": "Polished Andesite",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:basaltwork",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Polished Andesite",
+    "b": "Andesite",
+    "ratio": 1.15,
+    "rgbd": 6.9
+   },
+   {
+    "src": "theme:basaltwork",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Andesite",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.05,
+    "rgbd": 31.3
+   },
+   {
+    "src": "theme:basaltwork",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Andesite",
+    "b": "Polished Andesite",
+    "ratio": 1.15,
+    "rgbd": 6.9
+   },
+   {
+    "src": "theme:basaltwork",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "repeat",
+    "a": "Andesite",
+    "b": "Andesite",
+    "ratio": 1.0,
+    "rgbd": 0.0
+   },
+   {
+    "src": "theme:basaltwork",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Chiseled Stone Bricks",
+    "b": "Polished Andesite",
+    "ratio": 1.1,
+    "rgbd": 38.2
+   },
+   {
+    "src": "theme:basaltwork",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Chiseled Stone Bricks",
+    "b": "Andesite",
+    "ratio": 1.05,
+    "rgbd": 31.3
+   },
+   {
+    "src": "theme:basaltwork",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Polished Andesite",
+    "b": "Andesite",
+    "ratio": 1.15,
+    "rgbd": 6.9
+   }
+  ]
+ },
+ "terrain_distinct": {
+  "pairs": 91,
+  "unknown": 0,
+  "findings": {
+   "clash": 18,
+   "mush": 14
+  },
+  "rows": [
+   {
+    "src": "theme:emberbed",
+    "bucket": "surface",
+    "pattern": "electric",
+    "kind": "clash",
+    "a": "Orange Stained Clay",
+    "b": "Red Sand",
+    "ratio": 4.14,
+    "rgbd": 11.0
+   },
+   {
+    "src": "theme:emberbed",
+    "bucket": "surface",
+    "pattern": "electric",
+    "kind": "mush",
+    "a": "Orange Stained Clay",
+    "b": "Red Stained Clay",
+    "ratio": 1.0,
+    "rgbd": 30.6
+   },
+   {
+    "src": "theme:emberbed",
+    "bucket": "surface",
+    "pattern": "electric",
+    "kind": "clash",
+    "a": "Red Sand",
+    "b": "Red Stained Clay",
+    "ratio": 4.14,
+    "rgbd": 41.0
+   },
+   {
+    "src": "theme:emberbed",
+    "bucket": "surface",
+    "pattern": "electric",
+    "kind": "mush",
+    "a": "Gray Stained Clay",
+    "b": "Black Stained Clay",
+    "ratio": 1.11,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:emberbed",
+    "bucket": "surface",
+    "pattern": "electric",
+    "kind": "clash",
+    "a": "Gray Stained Clay",
+    "b": "Coal Block",
+    "ratio": 7.5,
+    "rgbd": 36.7
+   },
+   {
+    "src": "theme:emberbed",
+    "bucket": "surface",
+    "pattern": "electric",
+    "kind": "clash",
+    "a": "Black Stained Clay",
+    "b": "Coal Block",
+    "ratio": 8.33,
+    "rgbd": 15.1
+   },
+   {
+    "src": "theme:cinder",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Black Stained Clay",
+    "b": "Gray Stained Clay",
+    "ratio": 1.11,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:cinder",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Red Stained Clay",
+    "b": "Orange Stained Clay",
+    "ratio": 1.0,
+    "rgbd": 30.6
+   },
+   {
+    "src": "theme:cinder",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gray Stained Clay",
+    "b": "Black Stained Clay",
+    "ratio": 1.11,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:cinder",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Black Stained Clay",
+    "b": "Gray Stained Clay",
+    "ratio": 1.11,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:cinder",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Black Stained Clay",
+    "b": "Coal Block",
+    "ratio": 8.33,
+    "rgbd": 15.1
+   },
+   {
+    "src": "theme:cinder",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Gray Stained Clay",
+    "b": "Coal Block",
+    "ratio": 7.5,
+    "rgbd": 36.7
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Andesite",
+    "b": "Coal Ore",
+    "ratio": 1.1,
+    "rgbd": 145.5
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Gray Wool",
+    "b": "Coal Ore",
+    "ratio": 4.53,
+    "rgbd": 15.6
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Gray Stained Clay",
+    "b": "Coal Block",
+    "ratio": 7.5,
+    "rgbd": 36.7
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gray Stained Clay",
+    "b": "Black Stained Clay",
+    "ratio": 1.11,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Gray Stained Clay",
+    "b": "Gray Wool",
+    "ratio": 5.7,
+    "rgbd": 38.3
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Coal Block",
+    "b": "Black Stained Clay",
+    "ratio": 8.33,
+    "rgbd": 15.1
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Gray Stained Clay",
+    "b": "Coal Block",
+    "ratio": 7.5,
+    "rgbd": 36.7
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gray Stained Clay",
+    "b": "Black Stained Clay",
+    "ratio": 1.11,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Gray Stained Clay",
+    "b": "Gray Wool",
+    "ratio": 5.7,
+    "rgbd": 38.3
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "surface",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Coal Block",
+    "b": "Black Stained Clay",
+    "ratio": 8.33,
+    "rgbd": 15.1
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Coal Block",
+    "b": "Gray Stained Clay",
+    "ratio": 7.5,
+    "rgbd": 36.7
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Coal Block",
+    "b": "Black Stained Clay",
+    "ratio": 8.33,
+    "rgbd": 15.1
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gray Stained Clay",
+    "b": "Black Stained Clay",
+    "ratio": 1.11,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Gray Stained Clay",
+    "b": "Black Stained Clay",
+    "ratio": 1.11,
+    "rgbd": 32.4
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Gray Stained Clay",
+    "b": "Gray Wool",
+    "ratio": 5.7,
+    "rgbd": 38.3
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Gray Stained Clay",
+    "b": "Coal Block",
+    "ratio": 7.5,
+    "rgbd": 36.7
+   },
+   {
+    "src": "theme:ashfield",
+    "bucket": "wall",
+    "pattern": "noise",
+    "kind": "clash",
+    "a": "Black Stained Clay",
+    "b": "Coal Block",
+    "ratio": 8.33,
+    "rgbd": 15.1
+   },
+   {
+    "src": "theme:basaltwork",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Polished Andesite",
+    "b": "Andesite",
+    "ratio": 1.15,
+    "rgbd": 6.9
+   },
+   {
+    "src": "theme:basaltwork",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Polished Andesite",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.1,
+    "rgbd": 38.2
+   },
+   {
+    "src": "theme:basaltwork",
+    "bucket": "rim",
+    "pattern": "noise",
+    "kind": "mush",
+    "a": "Andesite",
+    "b": "Chiseled Stone Bricks",
+    "ratio": 1.05,
+    "rgbd": 31.3
+   }
+  ]
+ },
+ "made_raw": {
+  "pairs": 0,
+  "unknown": 0,
+  "findings": {},
+  "rows": []
+ },
+ "made_distinct": {
+  "pairs": 0,
+  "unknown": 0,
+  "findings": {},
+  "rows": []
+ }
+}
