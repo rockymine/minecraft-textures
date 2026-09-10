@@ -55,6 +55,25 @@ The findings concentrate on a handful of pairs, which is what makes them worth a
 it is the single commonest clash in the corpus. Mush lands hardest on the **surface** bucket (174 of 304),
 which is the face a player spends the whole match looking at.
 
+## What `repeat` turned out to be counting
+
+The 13.0% above is not, or not only, the document slip it was taken for. Two different things wear the
+name: `[grass, grass, dirt, grass]`, which is a mistake, and `[grass x10, coarse_dirt]`, which is an author
+weighting a noise by repeating a stop — ten grass stops contribute C(10,2) = 45 repeat pairs from one
+deliberate decision.
+
+Ten probe boards were scored both ways. Raw, they carry **361 repeat pairs of 1,349** — 26.8%, twice the
+corpus rate. Deduplicated to each pattern's distinct blocks, they carry **0 of 492**. Every repeat on every
+one of the ten was weighting, and not one board listed a block twice by accident.
+
+`scorer.py` takes `distinct=True` for that reading. Which one is wanted depends on the question: raw counts
+what the document says, distinct counts what the palette is. **For anything comparing agents or briefs,
+distinct is the honest one**, because raw mostly measures how much an author leaned on stop-repetition to
+weight a field.
+
+The corpus rate above has not been re-derived under `distinct`, so 13.0% should be read as an upper bound
+on the slip and not as the slip itself.
+
 ## Reading it honestly
 
 `repeat` and `collapse` are facts. `mush` and `clash` carry thresholds — a contrast ratio of 1.34 and of

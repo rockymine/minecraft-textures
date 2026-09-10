@@ -6,7 +6,10 @@ from: the surface and rim buckets are read from above, the wall and fill buckets
 
   repeat    the same block listed twice in one pattern. A document fault, and the one reading here that
             needs no texture knowledge at all — kept separate for exactly that reason, since counting it
-            as a texture finding would flatter the data it is meant to test.
+            as a texture finding would flatter the data it is meant to test. Two different things wear
+            this name: `[grass, grass, dirt, grass]`, which is a slip, and `[grass x10, coarse_dirt]`,
+            which is an author weighting a noise by repeating a stop. `distinct=True` dedupes each
+            pattern before reading it, which drops the weighting and leaves the palette choice.
   collapse  two DIFFERENT blocks that resolve to the same sprite on that face. The pattern has fewer
             blocks in it than the document says, and only the face data can tell. Sandstone and smooth
             sandstone in a surface pattern are one block; in a wall pattern they are two.
@@ -94,7 +97,7 @@ def _info(block, face):
             "family": b["group"] if b else None, "name": b["name"] if b else tex}
 
 
-def score_theme(theme, theme_id="?"):
+def score_theme(theme, theme_id="?", distinct=False):
     """Every finding in one theme, plus how much of it could be read at all."""
     found, unknown, pairs = [], 0, 0
     for bucket, face in BUCKET_FACE.items():
@@ -110,8 +113,16 @@ def score_theme(theme, theme_id="?"):
         if node is None:
             continue
         for pat in patterns(node, bucket, []):
+            blocks = pat["blocks"]
+            if distinct:
+                seen, kept = set(), []
+                for b in blocks:
+                    if b not in seen:
+                        seen.add(b)
+                        kept.append(b)
+                blocks = kept
             infos = []
-            for b in pat["blocks"]:
+            for b in blocks:
                 i = _info(b, face)
                 if i is None:
                     unknown += 1
@@ -141,12 +152,12 @@ def score_theme(theme, theme_id="?"):
     return found, pairs, unknown
 
 
-def score_registry(themes):
+def score_registry(themes, distinct=False):
     out, pairs, unknown = [], 0, 0
     for tid, t in themes.items():
         if not isinstance(t, dict):
             continue
-        f, p, u = score_theme(t, tid)
+        f, p, u = score_theme(t, tid, distinct)
         out += f
         pairs += p
         unknown += u
