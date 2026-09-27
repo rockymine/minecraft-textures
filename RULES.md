@@ -1,5 +1,35 @@
 # What the board scorer reads, and what calibrated it
 
+## Superseded
+
+**The calibration below is superseded by the author's rulings, and the pair readings are retired.** The
+rulings were made on 27 September 2026 looking at twelve question sheets drawn with the game's own textures,
+and they live where every authoring run reads them: `pgm-studio-mapgen/WHAT-A-BOARD-IS-MADE-OF.md`, section
+*What a board is painted with*. This file is kept as the record of what the scorer was and why it stopped.
+
+**A verdict on two blocks turned out to depend on what the two are for.** Coarse dirt with dirt, called soup
+below, is the right worn ground at half and half and the right path with spruce planks at a third each.
+Andesite with polished andesite, called soup, is half of the built floor the author prefers. Gravel with
+cobblestone, called soup, is two thirds of a hard path. Snow with quartz, called good, is a surface only and
+never a wall.
+
+**The pair readings flag four of the five recipes the author prefers.** The built floor — stone bricks,
+polished andesite, andesite and stone — gets `crowd` and three `soup`; the dirt path and the worn patch each
+get `soup`; sand with sandstone and end stone gets `clash`. What the rulings turn on — tone shared across a
+set, shares, grain, which set sits inside which — is not visible to a reading of blocks two at a time, and
+tuning its thresholds would not make it visible.
+
+| retired | why |
+|---|---|
+| `soup`, `mush` | a set of one tone in several textures is the ruling, not a fault |
+| `clash` | calls sand, sandstone and end stone a fault; the author endorses it |
+| `crowd` | four blocks of one tone is the preferred built floor |
+| `pathSpeck` | a path laid as a `cell` of three blocks a third each is the preferred path |
+
+`rockFight`, `rockLost`, `pathEcho` and `course` do not contradict any ruling — a boulder of granite beside
+stone is two rocks, and a boulder in the ground's own set is a lump — but nothing has re-checked them either.
+
+
 `boardscore.py` reads a whole sketch document — the theme registry, the materials stated on shapes,
 the strokes and the rocks — and reports what its materials will look like beside each other. It
 replaces the registry-only reading in `scorer.py`, which could not see a path or a rock at all.
